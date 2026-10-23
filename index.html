@@ -1,0 +1,619 @@
+<!doctype html><html lang="id"><head>
+<meta name="description" content="Portofolio Radius Kosgoro: Marcomm & Creative Designer. Desain, video, event, dan media sosial untuk properti.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2726%27 fill=%27%23ff6b3d%27/%3E%3Ctext x=%2750%27 y=%2770%27 font-size=%2765%27 font-family=%27Arial%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27white%27%3ER%3C/text%3E%3C/svg%3E"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Radius Kosgoro — Portofolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap" rel="stylesheet">
+<script>try{var t=localStorage.getItem('theme');if(t==='dark')document.documentElement.setAttribute('data-theme','dark')}catch(e){}</script><style>:root{--tx:radial-gradient(120% 60% at 14% 0%,rgba(255,255,255,.2),transparent 58%),linear-gradient(118deg,transparent 38%,rgba(255,255,255,.09) 50%,transparent 62%),linear-gradient(0deg,rgba(0,0,0,.16),transparent 50%),url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 .3 -.09'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");--ink:#22232a;--muted:#6b6b73;--line:#ececf0;--soft:#f5f5f7;--orange:#ff6b3d;color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--ink);font-family:Poppins,system-ui,-apple-system,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:clip}
+a{color:inherit;text-decoration:none}img{max-width:100%}
+/* nav pill */
+.nav{position:fixed;z-index:50;top:max(14px,env(safe-area-inset-top,0px));left:50%;transform:translateX(-50%);display:flex;align-items:center;gap:26px;padding:8px 10px 8px 24px;border-radius:999px;background:rgba(16,17,24,.78);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.1);box-shadow:0 12px 36px rgba(0,0,0,.22);color:#fff;max-width:calc(100% - 24px)}
+.logo{font-weight:700;letter-spacing:.02em;font-size:15px}
+.links{display:flex;gap:22px;font-size:13px}.links a{color:rgba(255,255,255,.62);transition:color .2s;white-space:nowrap}.links a:hover,.links a.on{color:#fff}
+.mp{display:flex;align-items:center;gap:10px;padding-left:14px;border-left:1px solid rgba(255,255,255,.14)}
+.play{position:relative;width:40px;height:40px;border:0;background:none;padding:0;cursor:pointer;flex:none}
+.ring{position:absolute;inset:0;width:100%;height:100%}.core{position:absolute;inset:6px;border-radius:50%;background:#fff;display:grid;place-items:center}
+.core svg{width:13px;height:13px;fill:#111;grid-area:1/1}.pa{display:none}.play.on .pa{display:block}.play.on .pl{display:none}
+.play:not(.on) .core{animation:pl 1.8s ease-in-out infinite}@keyframes pl{50%{transform:scale(1.12)}}
+.eq{display:flex;align-items:center;gap:2px;height:20px}.eq i{width:3px;height:6px;border-radius:2px;background:var(--orange);display:block}
+.mt{display:flex;flex-direction:column;line-height:1.2;min-width:96px}.mt b{font-size:12px}.mt small{font-size:10.5px;color:rgba(255,255,255,.6)}
+/* beranda: kipas kartu */
+.panel{position:relative;margin:12px;border-radius:36px;background:#07080d;color:#fff;min-height:min(calc(100svh - 24px),860px);padding:132px 20px 0;display:flex;flex-direction:column;align-items:center;text-align:center;overflow:hidden;isolation:isolate}
+.panel::before{content:"";position:absolute;inset:0;z-index:-1;background-image:linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);background-size:68px 68px;-webkit-mask-image:radial-gradient(75% 70% at 50% 35%,#000,transparent);mask-image:radial-gradient(75% 70% at 50% 35%,#000,transparent)}
+.panel::after{content:"";position:absolute;inset:auto 0 0;height:55%;z-index:-1;background:radial-gradient(55% 80% at 50% 100%,rgba(92,100,255,.32),transparent 70%)}
+.panel .pill{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.14);font-size:11.5px;color:rgba(255,255,255,.75);margin-bottom:22px}.panel .pill i{width:7px;height:7px;border-radius:50%;background:var(--orange);display:block}
+.panel h1{margin:0;font-size:clamp(40px,6.2vw,78px);line-height:1.04;font-weight:700;letter-spacing:-.02em}
+.lead{max-width:46ch;margin:18px 0 0;font-size:clamp(13px,1.2vw,15px);line-height:1.7;color:rgba(255,255,255,.58)}
+.fan{--cw:clamp(140px,19.5vw,240px);position:relative;width:100%;max-width:1100px;height:clamp(250px,33vw,350px);margin-top:auto}
+.card{position:absolute;left:50%;bottom:-180px;width:var(--cw);height:calc(var(--cw)*1.3 + 180px);border-radius:22px;background:var(--tx),linear-gradient(165deg,var(--c),color-mix(in srgb,var(--c) 58%,#000));overflow:hidden;color:#fff;padding:16px;display:flex;flex-direction:column;justify-content:flex-start;box-shadow:0 18px 44px rgba(0,0,0,.5);transform-origin:50% 100%;filter:brightness(var(--b,1));transform:translateX(calc(-50% + var(--x,0)*var(--cw)*.8)) translateY(var(--y,0)) rotate(var(--r,0deg)) scale(var(--s,1));transition:transform .55s cubic-bezier(.2,.8,.2,1),opacity .4s,translate .25s,filter .4s;outline-offset:3px}
+.card>*{position:relative;display:block;text-align:left}.card b{order:-1;max-width:78%;font-size:clamp(17px,1.9vw,24px);line-height:1.08;letter-spacing:-.01em;font-weight:700}
+.card .ico{display:grid;place-items:center;width:62%;aspect-ratio:1;margin:22px auto 0;border-radius:50%;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}.card .ico svg{width:46%;height:46%;fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.card .cn{position:absolute;right:12px;top:12px;font-size:11px;font-weight:600;padding:4px 9px;border-radius:999px;background:rgba(0,0,0,.28);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.card:hover,.card:focus-visible{translate:0 -16px}
+.fan .nv{position:absolute;top:6%;z-index:30;width:44px;height:44px;border-radius:50%;border:1px solid rgba(255,255,255,.22);background:rgba(255,255,255,.08);color:#fff;font-size:24px;line-height:1;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}.fan .nv:hover{background:rgba(255,255,255,.18)}.fan .nv.l{left:2%}.fan .nv.r{right:2%}
+/* panel beranda: etalase karya */
+.show{--dur:5.4s;position:relative;margin:12px;border-radius:36px;background:#07080d;color:#fff;min-height:min(calc(100svh - 24px),880px);display:flex;flex-direction:column;justify-content:flex-end;overflow:hidden;isolation:isolate}
+.bgs,.shade{position:absolute;inset:0;z-index:-2}.shade{z-index:-1;background:linear-gradient(90deg,rgba(4,6,9,.9) 0%,rgba(4,6,9,.55) 42%,rgba(4,6,9,.12) 78%),linear-gradient(0deg,rgba(4,6,9,.8) 0%,transparent 45%),linear-gradient(180deg,rgba(4,6,9,.55) 0%,transparent 22%)}
+.bg{position:absolute;inset:0;background-size:cover;background-position:center;filter:brightness(.78) saturate(1.05);opacity:0;transition:opacity 1.1s ease;transform:scale(1)}
+.bg.on{opacity:1;animation:kb calc(var(--dur) + 2.5s) ease-out forwards}@keyframes kb{from{transform:scale(1.02) translate3d(0,0,0)}to{transform:scale(1.13) translate3d(-1.2%,-1%,0)}}
+.show .pill{position:absolute;top:84px;left:clamp(20px,4vw,56px);display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:rgba(0,0,0,.25);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-size:11.5px;color:rgba(255,255,255,.85)}.show .pill i{width:7px;height:7px;border-radius:50%;background:var(--orange);display:block}
+.stage{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.95fr);gap:32px;align-items:end;padding:150px clamp(20px,4vw,56px) clamp(28px,4vw,48px)}
+.info{min-width:0;transition:opacity .35s,transform .35s}.info.sw{opacity:0;transform:translateY(10px)}
+.tg{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:22px}.tg span{padding:7px 14px;border-radius:10px;background:rgba(255,255,255,.12);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);font-size:12px;font-weight:500}
+.kk{margin:0 0 6px;font-size:clamp(18px,2.2vw,28px);font-weight:300;letter-spacing:.04em;text-transform:uppercase;color:rgba(255,255,255,.8)}
+.show h1{margin:0;font-family:Anton,Impact,"Arial Narrow",sans-serif;font-weight:400;text-transform:uppercase;font-size:clamp(46px,7.2vw,104px);line-height:.94;letter-spacing:.005em}
+.ds{max-width:42ch;margin:18px 0 22px;font-size:clamp(13px,1.2vw,15px);line-height:1.65;color:rgba(255,255,255,.72)}
+.go{display:inline-flex;align-items:center;gap:12px;padding:12px 14px 12px 24px;border:1px solid rgba(255,255,255,.55);border-radius:999px;font-size:14px;background:rgba(0,0,0,.2);transition:background .2s}.go:hover{background:rgba(255,255,255,.16)}
+.go span{display:grid;place-items:center;width:28px;height:28px;border:1px solid rgba(255,255,255,.55);border-radius:50%}.go svg{width:14px;height:14px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.rail{--cw:clamp(124px,13.5vw,184px);--gap:14px;--step:calc(var(--cw) + var(--gap));min-width:0}
+.vp{overflow:hidden;padding:16px 3px 30px;margin:0 -3px -14px}
+.trk{display:flex;gap:var(--gap);transform:translateX(calc(var(--idx,0) * var(--step) * -1));transition:transform .7s cubic-bezier(.65,0,.25,1)}.trk.nt{transition:none}
+.rc{flex:none;width:var(--cw);height:calc(var(--cw)*1.4);border-radius:20px;padding:14px;display:flex;flex-direction:column;position:relative;overflow:hidden;color:#fff;background:var(--tx),linear-gradient(165deg,var(--c),color-mix(in srgb,var(--c) 55%,#000));box-shadow:0 10px 24px rgba(0,0,0,.35);opacity:.78;transition:opacity .4s,transform .4s,box-shadow .4s}
+.rc.act{opacity:1;transform:translateY(-8px);box-shadow:0 0 0 2px rgba(255,255,255,.85),0 18px 40px rgba(0,0,0,.55)}.rc:hover{opacity:1}
+.rc b{order:-1;max-width:68%;font-size:clamp(14px,1.45vw,19px);line-height:1.1;font-weight:700}
+.rc .cn{position:absolute;right:10px;top:10px;font-size:10.5px;font-weight:600;padding:3px 8px;border-radius:999px;background:rgba(0,0,0,.28)}
+.rc .ico{display:grid;place-items:center;width:62%;aspect-ratio:1;margin:auto;border-radius:50%;background:rgba(255,255,255,.16);box-shadow:inset 0 0 0 1px rgba(255,255,255,.22)}.rc .ico svg{width:46%;height:46%;fill:none;stroke:#fff;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.ctl{display:flex;align-items:center;gap:12px;margin-top:18px}
+.show .nv{flex:none;width:42px;height:42px;border-radius:50%;border:1px solid rgba(255,255,255,.4);background:rgba(0,0,0,.2);color:#fff;font-size:22px;line-height:1;cursor:pointer;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}.show .nv:hover{background:rgba(255,255,255,.2)}
+.pg{flex:1;height:2px;background:rgba(255,255,255,.22);border-radius:2px;overflow:hidden;margin:0 6px}.pg i{display:block;height:100%;width:100%;background:#fff;transform-origin:left;transform:scaleX(0)}.pg i.run{animation:pf var(--dur) linear forwards}.show.pz .pg i.run{animation-play-state:paused}@keyframes pf{to{transform:scaleX(1)}}
+.cnt{font-size:clamp(32px,4vw,52px);font-weight:200;letter-spacing:.02em;font-variant-numeric:tabular-nums;min-width:1.5em;text-align:right}
+/* halaman karya */
+.work{display:none;max-width:1080px;margin:0 auto;padding:128px clamp(20px,4vw,40px) 40px}.work.on{display:block}
+body[data-view=work] .home-only{display:none}
+.back{display:inline-block;font-size:13px;color:var(--muted);margin-bottom:26px}.back:hover{color:var(--ink)}
+.wh{display:flex;align-items:flex-end;gap:20px}.num{font-size:clamp(56px,8vw,96px);font-weight:300;font-style:italic;line-height:.9;color:var(--c)}
+.work h2{margin:0;font-size:clamp(26px,3.6vw,42px);line-height:1.15}
+.wd{max-width:68ch;margin:20px 0 36px;line-height:1.75;color:var(--muted);font-size:14.5px}
+.figs{display:grid;gap:28px}.figs figure{margin:0}.figs img{width:100%;height:auto;display:block;border-radius:16px;border:1px solid var(--line);box-shadow:0 10px 30px rgba(0,0,0,.06);cursor:zoom-in;background:#fff}
+.figs .ph{max-width:440px}.figs figcaption{margin-top:10px;font-size:12.5px;color:var(--muted)}
+.pager2{display:flex;justify-content:space-between;gap:16px;margin-top:56px;padding-top:24px;border-top:1px solid var(--line);font-size:13.5px;font-weight:500}.pager2 a:hover{color:var(--c)}
+/* tentang */
+.sec{max-width:1160px;margin:0 auto;padding:96px clamp(20px,4vw,40px) 40px}
+.sh{margin:0 0 28px;font-size:clamp(30px,4vw,46px);font-weight:300;font-style:italic}.sh b{font-style:normal;font-weight:700}
+.about h3{font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin:28px 0 12px}
+.chip{display:inline-block;padding:8px 14px;margin:0 8px 8px 0;border-radius:999px;background:var(--soft);font-size:13px;font-weight:500}.note{margin:4px 0 0!important;font-size:13px!important}
+.tl{list-style:none;margin:0;padding:0;display:grid;gap:14px}.tl li{background:var(--soft);border-left:4px solid var(--orange);border-radius:14px;padding:16px 20px}
+.tl h3{margin:0!important;font-size:15px!important;letter-spacing:0!important;text-transform:none!important}.tl strong{font-size:13px;color:var(--orange)}.tl p{margin:6px 0 0;font-size:13px}
+/* kontak */
+.contact{max-width:none;margin:12px;padding:56px clamp(24px,5vw,64px);border-radius:36px;background:var(--tx),var(--orange);color:#fff;display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap}
+.contact h2{margin:0;font-size:clamp(30px,4.4vw,52px);font-weight:300;font-style:italic;line-height:1.1}.contact h2 b{font-style:normal;font-weight:700}
+.side{display:grid;gap:12px;justify-items:start}.mail{background:#fff;color:#111;padding:14px 24px;border-radius:999px;font-weight:600;font-size:14px}.tel{font-size:20px;font-weight:500}
+.soc{display:flex;gap:10px;flex-wrap:wrap}.soc a{border:1px solid rgba(255,255,255,.7);border-radius:999px;padding:8px 16px;font-size:13px}
+footer{text-align:center;padding:32px 16px 40px;font-size:12.5px;color:var(--muted)}
+.lb{position:fixed;inset:0;z-index:99;background:rgba(0,0,0,.88);display:grid;place-items:center;padding:16px;cursor:zoom-out}.lb[hidden]{display:none}.lb img{max-width:100%;max-height:100%;border-radius:12px}
+@media(max-width:860px){.nav{gap:14px;padding-left:16px}.logo{display:none}.links{gap:14px;font-size:12px}.mt{display:none}.mp{padding-left:10px}.eq{display:none}.panel,.show{border-radius:28px}.panel{padding-top:110px}.show{min-height:auto}.stage{grid-template-columns:1fr;gap:22px;padding-top:140px}.rail{--cw:clamp(104px,30vw,140px)}.show .nv{width:38px;height:38px}.fan .nv{width:38px;height:38px}}
+@media(max-width:480px){.links a[data-r="tentang"]{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.an{background:#f4f2e8;border-radius:24px;padding:20px;display:grid;gap:16px;color:#1a3022}
+.an-h{background:#1a3022;color:#f4f2e8;border-radius:16px;padding:22px 26px;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap}
+.an-h small{font-size:12px;font-weight:600;letter-spacing:.16em;color:#b8d435}.an-h h3{margin:4px 0 0;font-size:clamp(20px,2.6vw,30px)}.an-h p{margin:0;max-width:28ch;font-size:13px;text-align:right;opacity:.85}
+.an-c{background:#fff;border:1px solid #e7e4d8;border-radius:16px;padding:18px 20px}
+.an-k{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.an-k span{font-size:12.5px;color:#5c6a60;display:block}.an-k b{display:block;margin-top:6px;font-size:clamp(17px,1.7vw,22px);white-space:nowrap}
+.an-g{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.an h4{margin:0 0 10px;font-size:16px;line-height:1.35}.an-c p{margin:0 0 14px;font-size:13.5px;line-height:1.55}
+.bar{padding:10px 14px;border-radius:9px;font-size:13px;font-weight:600;margin-top:8px;white-space:nowrap}.b1{background:#b8d435}.b2{background:#1a3022;color:#fff}
+.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{background:#eef2cf;border-radius:999px;padding:8px 14px;font-size:13px}
+.tr{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.tr b{display:block;font-size:clamp(16px,1.6vw,20px);white-space:nowrap}.tr span{font-size:12.5px;color:#5c6a60}
+.an-b{display:grid;grid-template-columns:2fr 1fr;gap:12px}.ov{overflow-x:auto}
+.an table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:620px}.an th{background:#1a3022;color:#fff;text-align:left;padding:11px 12px;font-weight:600}.an th:first-child{border-radius:8px 0 0 8px}.an th:last-child{border-radius:0 8px 8px 0}
+.an td{padding:12px;border-bottom:1px solid #ecebe2}
+.an-s{background:#b8d435;border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:center}.an-s small{font-weight:700;letter-spacing:.08em}.an-s h4{font-size:clamp(17px,1.8vw,22px);margin:10px 0 12px;line-height:1.35}.an-s p{margin:0;font-size:13px}
+@media(max-width:860px){.an-b{grid-template-columns:1fr}.an-h p{text-align:left}}
+
+/* profil: dasbor gelap */
+#tentang.sec{max-width:none;margin:12px 0;padding:0 12px}
+.dash{display:grid;grid-template-columns:96px minmax(0,1fr);border-radius:36px;overflow:hidden;background:#090b10;color:#fff;border:1px solid rgba(255,255,255,.07);box-shadow:0 30px 70px rgba(0,0,0,.25)}
+.sd{background:#0e1117;display:flex;flex-direction:column;align-items:center;padding:24px 0 0;border-right:1px solid rgba(255,255,255,.06)}
+.lg{width:52px;height:52px;border-radius:16px;background:#fff;color:#090b10;display:grid;place-items:center;font-weight:700;font-size:26px;margin-bottom:22px}
+.sd nav{width:100%;display:flex;flex-direction:column}.sd nav a{display:flex;flex-direction:column;align-items:center;gap:8px;padding:18px 0;border-top:1px solid rgba(255,255,255,.06);font-size:11.5px;font-weight:600;color:rgba(255,255,255,.6)}
+.sd nav svg{width:40px;height:40px;padding:10px;border-radius:50%;border:1.5px solid rgba(255,255,255,.35);fill:none;stroke:#fff;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.sd nav a:hover,.sd nav a.on{color:#fff}.sd nav a.on svg{background:var(--orange);border-color:var(--orange)}
+.cta2{margin-top:auto;width:100%;background:var(--orange);color:#fff;display:flex;flex-direction:column;align-items:center;gap:8px;padding:22px 6px;font-size:11.5px;font-weight:700;text-align:center}.cta2 svg{width:36px;height:36px;fill:none;stroke:#fff;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.mn{min-width:0}
+.ban{position:relative;height:270px;overflow:hidden}.ban img{width:100%;height:100%;object-fit:cover;object-position:50% 33%;display:block}
+.ban::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(9,11,16,.1),rgba(9,11,16,.75))}
+.meta{position:absolute;z-index:2;left:0;right:0;bottom:16px;display:flex;align-items:center;gap:28px;padding:0 24px 0 340px}
+.meta span{display:flex;align-items:center;gap:10px}.meta svg{width:34px;height:34px;padding:8px;border-radius:50%;border:1px solid rgba(255,255,255,.5);fill:none;stroke:#fff;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.meta b{display:block;font-size:13px}.meta small{font-size:10.5px;color:rgba(255,255,255,.65)}
+.meta em{margin-left:auto;display:flex;gap:10px;font-style:normal}.meta em a{width:34px;height:34px;border-radius:50%;border:1px solid rgba(255,255,255,.5);display:grid;place-items:center;font-size:12px;font-weight:700}.meta em svg{width:34px;height:34px;border:0}
+.cols{display:grid;grid-template-columns:300px minmax(0,1fr);gap:22px;padding:0 24px 24px;margin-top:-90px;position:relative;z-index:3}
+.prof{background:#161a23;border:1px solid rgba(255,255,255,.08);border-radius:24px;padding:0 20px 22px;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,.35)}
+.av{width:124px;height:124px;border-radius:50%;object-fit:cover;border:5px solid #161a23;margin-top:-62px;box-shadow:0 0 0 3px var(--orange);background:#222}
+.prof h2{margin:12px 0 4px;font-size:22px}.prof p{margin:0;font-size:12.5px;line-height:1.6;color:rgba(255,255,255,.6)}
+.st{display:grid;grid-template-columns:1fr 1fr;margin:18px 0;padding:14px 0;border-block:1px solid rgba(255,255,255,.08)}.st b{display:block;font-size:19px;color:var(--orange)}.st small{font-size:11px;color:rgba(255,255,255,.6)}.st div+div{border-left:1px solid rgba(255,255,255,.08)}
+.bt{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.bt a{padding:11px;border-radius:999px;font-size:13px;font-weight:600}.b1{background:var(--orange)}.b2{border:1px solid rgba(255,255,255,.35)}
+.ex{margin-top:20px;background:#12161e;border:1px solid rgba(255,255,255,.07);border-radius:24px;padding:18px 16px}
+.ex h3{margin:6px 4px 14px;text-align:center;font-size:13.5px;color:rgba(255,255,255,.75)}.ex h3:not(:first-child){margin-top:22px}
+.er{display:flex;align-items:center;gap:12px;background:#1a1f29;border-radius:14px;padding:10px 12px;margin-bottom:8px}.er i{flex:none;width:36px;height:36px;border-radius:50%;background:var(--c);display:grid;place-items:center;font-style:normal;font-weight:700;font-size:12px}
+.er b{display:block;font-size:12.5px;line-height:1.25}.er small{font-size:10.5px;color:rgba(255,255,255,.55)}
+.rcol{padding-top:114px;display:grid;gap:18px;align-content:start;min-width:0}
+.r1{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);gap:18px}.r2{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.5fr);gap:18px}
+.bio{background:var(--tx),var(--orange);border-radius:22px;padding:20px 22px;color:#fff}.bio h3{margin:0 0 12px;font-size:15px;display:flex;align-items:center;gap:8px}.bio p{margin:0 0 10px;font-size:12.5px;line-height:1.7;opacity:.95}
+.cd{background:#12161e;border:1px solid rgba(255,255,255,.07);border-radius:22px;padding:20px 22px}
+.cd h3,.bio h3{font-size:15px}.cd h3{margin:0 0 16px;display:flex;align-items:center;gap:8px}.cd h3 svg,.bio h3 svg{width:26px;height:26px;padding:5px;border-radius:50%;background:var(--orange);fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.bio h3 svg{background:rgba(255,255,255,.25)}
+.kg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 16px}
+.kw{display:flex;align-items:center;gap:10px;min-width:0}.kw i{flex:none;width:38px;height:38px;border-radius:50%;background:var(--c);display:grid;place-items:center}.kw svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.kw b{display:block;font-size:12.5px;color:#fff}.kw small{font-size:10.5px;color:rgba(255,255,255,.55)}.kw:hover b{color:var(--orange)}
+.ed{display:block;font-size:13.5px;line-height:1.4}.mut{margin:8px 0 0;font-size:12px;line-height:1.6;color:rgba(255,255,255,.6)}
+.tools{display:flex;gap:10px;margin-bottom:16px;flex-wrap:wrap}.tools span{width:42px;height:42px;border-radius:10px;background:var(--d);color:var(--c);display:grid;place-items:center;font-weight:700;font-size:15px;border:1px solid rgba(255,255,255,.12)}
+.skl{display:flex;flex-wrap:wrap;gap:8px}.skl span{padding:7px 13px;border-radius:999px;background:#1c222d;border:1px solid rgba(255,255,255,.08);font-size:12px}
+@media(max-width:1000px){.dash{grid-template-columns:1fr}.sd{flex-direction:row;padding:0;border:0;border-bottom:1px solid rgba(255,255,255,.06)}.lg,.cta2 span{display:none}.lg{display:none}.sd nav{flex-direction:row;justify-content:space-around}.sd nav a{border:0;padding:12px 0;flex:1}.sd nav span{display:none}.cta2{margin:0;width:64px;flex:none;padding:12px 0}.ban{height:200px}.meta{padding:0 16px;gap:14px;flex-wrap:wrap;bottom:10px}.meta span:nth-child(3){display:none}.cols{grid-template-columns:1fr;margin-top:-50px}.rcol{padding-top:0}.r1,.r2{grid-template-columns:1fr}}
+@media(max-width:560px){.kg{grid-template-columns:1fr}.meta span:nth-child(2){display:none}}
+
+body[data-view=work] .contact{margin-top:56px}
+@media(max-width:860px){.dash,.contact{border-radius:28px}}
+
+.sk{flex:none;width:28px;height:28px;border:0;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;cursor:pointer;padding:0}.sk svg{width:12px;height:12px;fill:#fff}.sk:hover{background:rgba(255,255,255,.24)}
+.mp{gap:8px}
+@media(max-width:860px){.pv{display:none}.sk{width:26px;height:26px}}
+
+/* tema terang / gelap */
+body{transition:background .35s,color .35s}
+.tg2{flex:none;width:32px;height:32px;border:0;border-radius:50%;background:rgba(255,255,255,.1);display:grid;place-items:center;cursor:pointer;padding:0}.tg2:hover{background:rgba(255,255,255,.24)}
+.tg2 svg{width:16px;height:16px;fill:none;stroke:#fff;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}.tg2 .su{display:none}.tg2 .mo{fill:#fff;stroke:none}
+html[data-theme=dark] .tg2 .su{display:block}html[data-theme=dark] .tg2 .mo{display:none}
+html[data-theme=dark]{--ink:#eceef3;--muted:#9a9ca8;--line:#22252d;--soft:#13151b;color-scheme:dark}
+html[data-theme=dark] body{background:#000}
+html[data-theme=dark] .panel,html[data-theme=dark] .show,html[data-theme=dark] .dash{border:1px solid rgba(255,255,255,.09)}
+html[data-theme=dark] .figs img{border-color:#2a2d36;box-shadow:0 12px 34px rgba(0,0,0,.6)}
+html[data-theme=dark] .pager2{border-color:#22252d}
+@media(max-width:860px){.nav{gap:10px}.mp{gap:6px}.tg2{width:28px;height:28px}}
+.mt small,.mt b{white-space:nowrap}
+
+.figs.g2{grid-template-columns:repeat(2,minmax(0,1fr))}.figs.g2 figure:first-child{grid-column:1/-1}
+@media(max-width:700px){.figs.g2{grid-template-columns:1fr}}
+
+.figs.g2.v figure:nth-child(2){grid-column:1/-1}
+.vid video{width:100%;display:block;aspect-ratio:16/9;border-radius:16px;background:#000;border:1px solid var(--line);box-shadow:0 12px 34px rgba(0,0,0,.18)}
+.pgrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px}.pgrid figure{margin:0}.pgrid figcaption{font-size:11.5px;line-height:1.4}.wip{display:inline-block;vertical-align:middle;margin-left:10px;padding:4px 11px;border-radius:999px;font-size:11px;font-weight:600;letter-spacing:.02em;color:var(--c);background:color-mix(in srgb,var(--c) 14%,transparent);border:1px solid color-mix(in srgb,var(--c) 40%,transparent)}@media(max-width:900px){.pgrid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:560px){.pgrid{grid-template-columns:repeat(2,minmax(0,1fr))}}.pgrid.p4{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){.pgrid.p4{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:560px){.pgrid.p4{grid-template-columns:repeat(2,minmax(0,1fr))}}/* Analisa Sosmed: hitam di tema gelap */html[data-theme=dark] .an{background:#000;color:#f2f3f5;border:1px solid #1f2127}html[data-theme=dark] .an .an-h{background:#111419;border:1px solid #23262d;color:#f2f3f5}html[data-theme=dark] .an .an-h small{color:#b8d435}html[data-theme=dark] .an .an-c{background:#0d0f13;border:1px solid #23262d;color:#f2f3f5}html[data-theme=dark] .an .an-k span,html[data-theme=dark] .an .tr span{color:#a3a7b1}html[data-theme=dark] .an .an-k b,html[data-theme=dark] .an .tr b,html[data-theme=dark] .an h4{color:#fff}html[data-theme=dark] .an .an-c p{color:#d3d6dc}html[data-theme=dark] .an .b1{background:#b8d435;color:#0b1200}html[data-theme=dark] .an .b2{background:#1f4a32;color:#fff}html[data-theme=dark] .an .tags span{background:#1a1e25;color:#e8ebf0;border:1px solid #2b3039}html[data-theme=dark] .an table{color:#e8ebf0}html[data-theme=dark] .an th{background:#1b2a1f;color:#d7ee6a}html[data-theme=dark] .an td{border-bottom:1px solid #23262d}html[data-theme=dark] .an td b{color:#b8d435}html[data-theme=dark] .an .an-s{background:#b8d435;color:#0b1200}html[data-theme=dark] .an .an-s h4,html[data-theme=dark] .an .an-s p,html[data-theme=dark] .an .an-s small{color:#0b1200}.fl{display:grid;gap:36px}.fl-s h3{margin:0 0 14px;font-size:20px;display:flex;align-items:center;gap:10px}.fl-s h3::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--c)}.fl-e{border:1px dashed var(--line);border-radius:16px;padding:44px 20px;text-align:center;color:var(--muted);font-size:13px}.fl-s h3 small{font-size:12px;font-weight:500;color:var(--muted);margin-left:4px}.fl-g{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.fl-g figure{margin:0}.fl-g img{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);cursor:zoom-in;background:#000}.fl-g figcaption{margin-top:8px;font-size:12.5px;color:var(--muted)}@media(max-width:700px){.fl-g{grid-template-columns:1fr}}.fl-g.fl-3{grid-template-columns:repeat(3,minmax(0,1fr))}@media(max-width:900px){.fl-g.fl-3{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:480px){.fl-g.fl-3{grid-template-columns:1fr}}.fl-g.fl-4{grid-template-columns:repeat(4,minmax(0,1fr))}@media(max-width:900px){.fl-g.fl-4{grid-template-columns:repeat(2,minmax(0,1fr))}}/* tema terang: seluruh halaman */html:not([data-theme=dark]) .nav{background:rgba(255,255,255,.84);border-color:rgba(0,0,0,.08);box-shadow:0 12px 36px rgba(0,0,0,.12);color:var(--ink)}html:not([data-theme=dark]) .links a{color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .links a:hover,html:not([data-theme=dark]) .links a.on{color:#111}html:not([data-theme=dark]) .mp{border-left-color:rgba(0,0,0,.12)}html:not([data-theme=dark]) .mt small{color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .ring circle:first-child{stroke:rgba(0,0,0,.14)}html:not([data-theme=dark]) .core{background:#111}html:not([data-theme=dark]) .core svg{fill:#fff}html:not([data-theme=dark]) .sk,html:not([data-theme=dark]) .tg2{background:rgba(0,0,0,.07)}html:not([data-theme=dark]) .sk:hover,html:not([data-theme=dark]) .tg2:hover{background:rgba(0,0,0,.16)}html:not([data-theme=dark]) .sk svg{fill:#111}html:not([data-theme=dark]) .tg2 svg{stroke:#111}html:not([data-theme=dark]) .tg2 .mo{fill:#111}html:not([data-theme=dark]) .panel{background:#eceef4;color:var(--ink);border:1px solid #dfe2ea}html:not([data-theme=dark]) .panel::before{background-image:linear-gradient(rgba(0,0,0,.06) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.06) 1px,transparent 1px)}html:not([data-theme=dark]) .panel::after{background:radial-gradient(55% 80% at 50% 100%,rgba(92,100,255,.2),transparent 70%)}html:not([data-theme=dark]) .panel .pill{border-color:rgba(0,0,0,.14);color:rgba(0,0,0,.7)}html:not([data-theme=dark]) .lead{color:rgba(0,0,0,.6)}html:not([data-theme=dark]) .fan .nv{border-color:rgba(0,0,0,.22);background:rgba(0,0,0,.05);color:#111}html:not([data-theme=dark]) .fan .nv:hover{background:rgba(0,0,0,.12)}html:not([data-theme=dark]) .show{background:#e9ebf1;color:var(--ink);border:1px solid #dfe2ea}html:not([data-theme=dark]) .shade{background:linear-gradient(90deg,rgba(243,244,249,.95) 0%,rgba(243,244,249,.72) 42%,rgba(243,244,249,.1) 78%),linear-gradient(0deg,rgba(243,244,249,.85) 0%,transparent 45%),linear-gradient(180deg,rgba(243,244,249,.6) 0%,transparent 22%)}html:not([data-theme=dark]) .bg{filter:brightness(1) saturate(1.05)}html:not([data-theme=dark]) .show .pill{border-color:rgba(0,0,0,.16);background:rgba(255,255,255,.7);color:rgba(0,0,0,.75)}html:not([data-theme=dark]) .tg span{background:rgba(0,0,0,.08);color:var(--ink)}html:not([data-theme=dark]) .kk{color:rgba(0,0,0,.65)}html:not([data-theme=dark]) .ds{color:rgba(0,0,0,.72)}html:not([data-theme=dark]) .go{border-color:rgba(0,0,0,.4);background:rgba(255,255,255,.55)}html:not([data-theme=dark]) .go:hover{background:rgba(0,0,0,.08)}html:not([data-theme=dark]) .go span{border-color:rgba(0,0,0,.4)}html:not([data-theme=dark]) .go svg{stroke:#111}html:not([data-theme=dark]) .show .nv{border-color:rgba(0,0,0,.3);background:rgba(255,255,255,.65);color:#111}html:not([data-theme=dark]) .show .nv:hover{background:rgba(0,0,0,.1)}html:not([data-theme=dark]) .pg{background:rgba(0,0,0,.16)}html:not([data-theme=dark]) .pg i{background:#111}html:not([data-theme=dark]) .rc{box-shadow:0 10px 24px rgba(0,0,0,.18)}html:not([data-theme=dark]) .rc.act{box-shadow:0 0 0 2px rgba(0,0,0,.75),0 18px 40px rgba(0,0,0,.25)}html:not([data-theme=dark]) .dash{background:#f1f3f8;color:var(--ink);border:1px solid #e1e4ec;box-shadow:0 30px 70px rgba(0,0,0,.08)}html:not([data-theme=dark]) .sd{background:#fff;border-right-color:#e6e8ef}html:not([data-theme=dark]) .lg{background:#111;color:#fff}html:not([data-theme=dark]) .sd nav a{border-top-color:#e8eaf0;color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .sd nav a:hover,html:not([data-theme=dark]) .sd nav a.on{color:#111}html:not([data-theme=dark]) .sd nav svg{border-color:rgba(0,0,0,.25);stroke:#111}html:not([data-theme=dark]) .sd nav a.on svg{stroke:#fff}html:not([data-theme=dark]) .prof{background:#fff;border-color:#e5e7ee;box-shadow:0 20px 40px rgba(0,0,0,.08)}html:not([data-theme=dark]) .av{border-color:#fff}html:not([data-theme=dark]) .prof p{color:rgba(0,0,0,.6)}html:not([data-theme=dark]) .st{border-block-color:#e8eaf0}html:not([data-theme=dark]) .st small{color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .st div+div{border-left-color:#e8eaf0}html:not([data-theme=dark]) .b2{border-color:rgba(0,0,0,.3)}html:not([data-theme=dark]) .ex{background:#fff;border-color:#e5e7ee}html:not([data-theme=dark]) .ex h3{color:rgba(0,0,0,.7)}html:not([data-theme=dark]) .er{background:#f3f4f8}html:not([data-theme=dark]) .er i{color:#fff}html:not([data-theme=dark]) .er small{color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .cd{background:#fff;border-color:#e5e7ee}html:not([data-theme=dark]) .kw b{color:#111}html:not([data-theme=dark]) .kw small{color:rgba(0,0,0,.55)}html:not([data-theme=dark]) .kw:hover b{color:var(--orange)}html:not([data-theme=dark]) .mut{color:rgba(0,0,0,.6)}html:not([data-theme=dark]) .tools span{border-color:rgba(0,0,0,.1)}html:not([data-theme=dark]) .skl span{background:#f0f1f6;border-color:#e3e5ec}@media(max-width:1000px){html:not([data-theme=dark]) .sd{border-bottom-color:#e6e8ef}}.meta,.meta b{color:#fff}.bt a.b1{color:#fff}.bt a.b2{background:transparent;color:inherit}.an .bar.b1{background:#b8d435;color:#0b1200}.an .bar.b2{background:#1a3022;color:#fff}
+.contact{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);gap:clamp(28px,5vw,72px);align-items:center;padding:clamp(40px,6vw,72px) clamp(24px,5vw,72px)}
+.ct-k{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;padding:6px 14px;border:1px solid rgba(255,255,255,.5);border-radius:999px;margin-bottom:22px}
+.contact h2{font-size:clamp(30px,4.2vw,54px)}
+.ct-l p{margin:18px 0 28px;max-width:40ch;font-size:15px;line-height:1.7;opacity:.92}
+.mail{display:inline-flex;align-items:center;gap:10px;padding:14px 26px;box-shadow:0 10px 26px rgba(0,0,0,.16);transition:transform .2s,box-shadow .2s}.mail:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,.22)}
+.ct-r{display:grid;gap:12px}
+.cr{display:flex;align-items:center;gap:16px;padding:14px 18px;border-radius:18px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.28);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:background .2s,transform .2s}
+.cr:hover{background:rgba(255,255,255,.26);transform:translateX(4px)}
+.cr i{flex:none;width:42px;height:42px;border-radius:50%;background:rgba(255,255,255,.2);display:grid;place-items:center;font-style:normal}
+.cr i svg{width:20px;height:20px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.cr i b{font-size:14px}
+.cr span{display:flex;flex-direction:column;min-width:0;flex:1}.cr small{font-size:11.5px;opacity:.82;letter-spacing:.02em}.cr span b{font-size:15px;font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cr em{font-style:normal;font-size:18px;opacity:.85}
+@media(max-width:860px){.contact{grid-template-columns:1fr}.ct-l p{max-width:none}}
+footer{padding:28px 16px 36px;letter-spacing:.02em}
+
+/* kontak: rapi & profesional */
+.contact{background:linear-gradient(135deg,#ff7a4d 0%,#ff6b3d 55%,#f25a2a 100%);padding-block:clamp(44px,6vw,80px);padding-inline:max(clamp(24px,5vw,72px),calc((100% - 1160px)/2));box-shadow:0 24px 60px rgba(255,107,61,.22)}
+.contact h2{font-style:normal;font-weight:600;letter-spacing:-.02em;line-height:1.12;font-size:clamp(30px,4vw,50px)}
+.contact h2 b{display:block;font-weight:700;margin-top:4px}
+.ct-k{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.4)}
+.ct-l p{margin:18px 0 30px;opacity:.95}
+.ct-b{display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.mail{display:inline-flex;align-items:center;gap:10px;background:#fff;color:#16181f;padding:15px 26px;border-radius:999px;font-weight:600;font-size:14.5px;box-shadow:0 10px 24px rgba(0,0,0,.14);transition:transform .2s,box-shadow .2s}
+.mail:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,0,0,.2)}
+.ct-n{font-size:12.5px;opacity:.9}
+.ct-r{gap:10px}
+.cr{background:#fff;color:#16181f;border:1px solid rgba(0,0,0,.04);border-radius:16px;padding:13px 16px;box-shadow:0 8px 20px rgba(0,0,0,.1)}
+.cr:hover{background:#fff;transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.16)}
+.cr i{background:var(--orange);color:#fff}.cr i svg{stroke:#fff}
+.cr small{color:#6b6b73;opacity:1;font-size:11.5px}
+.cr span b{color:#16181f}
+.cr em{color:var(--orange);opacity:1;font-weight:700}
+footer{padding:28px 16px 36px;border-top:0;font-size:12.5px;letter-spacing:.02em}
+@media(max-width:860px){.ct-b{flex-direction:column;align-items:flex-start;gap:10px}}
+
+.try{margin:-12px 0 28px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.cta-try{display:inline-flex;align-items:center;gap:10px;background:var(--c);color:#fff;padding:13px 24px;border-radius:999px;font-weight:600;font-size:14px;box-shadow:0 10px 24px color-mix(in srgb,var(--c) 40%,transparent);transition:transform .2s}
+.cta-try:hover{transform:translateY(-2px)}.cta-try i{font-style:normal}.try small{color:var(--muted);font-size:12.5px}
+.bt .b3{grid-column:1/-1;display:flex;justify-content:center;align-items:center;gap:8px;border:1px dashed rgba(128,128,128,.55);color:inherit;background:transparent;padding:11px;border-radius:999px;font-size:13px;font-weight:600}
+.bt .b3:hover{border-color:var(--orange);color:var(--orange)}.bt .b3 i{font-style:normal}
+.mail.cvb{background:transparent;color:#fff;border:1.5px solid rgba(255,255,255,.75);box-shadow:none}.mail.cvb:hover{background:rgba(255,255,255,.16)}.mail.cvb i{font-style:normal}
+.lg2{font:700 10.5px Poppins,sans-serif;color:#fff;letter-spacing:.02em}
+html:not([data-theme=dark]) .lg2{color:#111}
+.fan.init .card{transition:none!important}
+/* Analisa: fleksibel di semua ukuran layar */
+.an,.an>*,.an-c,.an-b>*,.an-g>*,.an-k>*{min-width:0}
+.an-k{grid-template-columns:repeat(auto-fit,minmax(min(150px,100%),1fr))}
+.an-g{grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr))}
+.ov{max-width:100%}
+@media(max-width:640px){
+ .an{padding:12px;border-radius:18px;gap:12px}
+ .an-h{padding:16px 18px}.an-h p{max-width:none}
+ .an-c{padding:16px}
+ .an-k{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .an-k b{white-space:normal;font-size:17px}
+ .an-s{padding:18px}
+ .an table{min-width:0;display:block}.an thead{display:none}.an tbody{display:grid;gap:10px}
+ .an tr{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;background:#f7f6ef;border:1px solid #ecebe2;border-radius:12px;padding:12px}
+ .an td{border:0;padding:0;font-size:13px}.an td::before{content:attr(data-l);display:block;font-size:11px;color:#5c6a60;margin-bottom:1px}
+ .an td:last-child{grid-column:1/-1}
+ html[data-theme=dark] .an tr{background:#12151b;border-color:#23262d}
+ html[data-theme=dark] .an td{border:0}
+ html[data-theme=dark] .an td::before{color:#a3a7b1}
+}
+
+.fl-g .vw{position:relative;border-radius:14px;overflow:hidden;cursor:pointer;background:#000;border:1px solid var(--line);outline-offset:3px}
+.fl-g .vw img{width:100%;height:auto;display:block;border:0;border-radius:0;cursor:pointer}
+.fl-g .vw video{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000}
+.vw .pb{position:absolute;left:50%;top:50%;width:64px;height:64px;margin:-32px 0 0 -32px;border-radius:50%;background:rgba(255,255,255,.92);color:#ff6b3d;display:grid;place-items:center;padding-left:4px;font-size:22px;box-shadow:0 10px 26px rgba(0,0,0,.35);transition:transform .2s}
+.vw:hover .pb{transform:scale(1.1)}
+.vw .vt{position:absolute;right:10px;top:10px;background:rgba(0,0,0,.6);color:#fff;font-size:11px;font-weight:600;padding:3px 9px;border-radius:99px}
+.vw.on img{visibility:hidden}.vw.on .pb,.vw.on .vt{display:none}
+</style></head><body data-view="home">
+<header class="nav" id="nav"><a class="logo" href="#/">RADIUS.</a>
+<nav class="links"><a data-r="" href="#/">Beranda</a><a data-r="karya" href="#/karya">Karya</a><a data-r="tentang" href="#/tentang">Pengalaman</a><a data-r="kontak" href="#/kontak">Kontak</a></nav>
+<div class="mp"><button class="sk pv" id="mprev" aria-label="Lagu sebelumnya"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 5v14L9 12zM6 5h2.5v14H6z"/></svg></button><button class="play" id="play" aria-label="Putar atau jeda musik"><svg class="ring" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="20" fill="none" stroke="rgba(255,255,255,.18)" stroke-width="2.5"/><circle id="ring" cx="22" cy="22" r="20" fill="none" stroke="#ff6b3d" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="125.7" stroke-dashoffset="125.7" transform="rotate(-90 22 22)"/></svg><span class="core"><svg class="pl" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg><svg class="pa" viewBox="0 0 24 24"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z"/></svg></span></button><button class="sk" id="mnext" aria-label="Lagu berikutnya"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5v14l10-7zM15.5 5H18v14h-2.5z"/></svg></button>
+<span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span><span class="mt"><b id="ttlM">Malam Jingga</b><small id="tm">Putar musik offline</small></span><button class="tg2 lg2" id="lang" aria-label="Ganti bahasa / Switch language" title="Bahasa / Language">EN</button><button class="tg2" id="theme" aria-label="Ganti tema terang atau gelap" title="Terang / gelap"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="mo" d="M20.5 13.5A8.5 8.5 0 1110.5 3.5a6.8 6.8 0 0010 10z"/><g class="su"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></g></svg></button></div></header>
+<main>
+<section class="panel home-only" id="home"><div class="pill"><i></i>Portofolio · Marcomm &amp; Creative Designer</div>
+<h1>Desain, Video,<br>&amp; Cerita.</h1>
+<p class="lead">Radius Kosgoro, creative designer berbasis di Indonesia. Pilih kartu untuk membuka halaman karyanya.</p>
+<div class="fan init" id="fan"><button class="nv l" id="fprev" aria-label="Karya sebelumnya">‹</button><a class="card" href="#/event" style="--c:#7C5CFF"><span class="cn">01</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="M12 13l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z"/></svg></span><b>Marcomm<br>Event</b></a><a class="card" href="#/sosmed" style="--c:#FF5C7A"><span class="cn">02</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></span><b>Social<br>Media</b></a><a class="card" href="#/offline" style="--c:#18B4E8"><span class="cn">03</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="11" rx="2"/><path d="M8 15v6M16 15v6M7 9.5h10"/></svg></span><b>Offline<br>Design</b></a><a class="card" href="#/drone" style="--c:#18C28E"><span class="cn">04</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M10 10L6.5 6.5M14 10l3.5-3.5M10 14l-3.5 3.5M14 14l3.5 3.5"/><circle cx="5" cy="5" r="2.4"/><circle cx="19" cy="5" r="2.4"/><circle cx="5" cy="19" r="2.4"/><circle cx="19" cy="19" r="2.4"/></svg></span><b>Drone<br>Video</b></a><a class="card" href="#/foto" style="--c:#ff6b3d"><span class="cn">05</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.6-2.5h6.8L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></span><b>Foto Properti<br>&amp; Event</b></a><a class="card" href="#/training" style="--c:#E64BA8"><span class="cn">06</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M10 8.5v5l4.5-2.5zM8 21h8M12 17v4"/></svg></span><b>Video<br>Training</b></a><a class="card" href="#/analisa" style="--c:#8BC34A"><span class="cn">07</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"/></svg></span><b>Analisa<br>Sosmed</b></a><a class="card" href="#/freelance" style="--c:#6366F1"><span class="cn">08</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l3.5-1 12-12a2.1 2.1 0 00-3-3l-12 12z"/><path d="M14 7l3 3"/></svg></span><b>Freelance</b></a><a class="card" href="#/dompet" style="--c:#10B981"><span class="cn">09</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 012-2h12v3"/><path d="M3 7v11a2 2 0 002 2h15a1 1 0 001-1V9a1 1 0 00-1-1H5a2 2 0 01-2-1z"/><circle cx="16.5" cy="13.5" r="1.2"/></svg></span><b>Aplikasi<br>Dompet Keluarga</b></a><button class="nv r" id="fnext" aria-label="Karya berikutnya">›</button></div></section>
+<section class="show home-only" id="karya"><div class="bgs" id="bgs"><div class="bg" style="background-image:url(images/img-78.jpg)"></div><div class="bg" style="background-image:url(images/img-70.jpg)"></div><div class="bg" style="background-image:url(images/img-71.jpg)"></div><div class="bg" style="background-image:url(images/img-72.jpg)"></div><div class="bg" style="background-image:url(images/img-73.jpg)"></div><div class="bg" style="background-image:url(images/img-74.jpg)"></div><div class="bg" style="background-image:url(images/img-75.jpg)"></div><div class="bg" style="background-image:url(images/img-76.jpg)"></div><div class="bg" style="background-image:url(images/img-77.jpg)"></div></div><div class="shade"></div>
+
+<div class="stage"><div class="info"><div class="tg" id="tags"></div><p class="kk" id="kk"></p><h1 id="ttl"></h1><p class="ds" id="ds"></p><a class="go" id="go" href="#/event">Lihat Karya <span><svg viewBox="0 0 24 24"><path d="M12 5v12M7 13l5 5 5-5"/></svg></span></a></div>
+<div class="rail"><div class="vp"><div class="trk" id="trk"><a class="rc" data-i="0" href="#/event" style="--c:#7C5CFF" aria-label="Marcomm Event"><span class="cn">01</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="M12 13l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z"/></svg></span><b>Marcomm<br>Event</b></a><a class="rc" data-i="1" href="#/sosmed" style="--c:#FF5C7A" aria-label="Social Media"><span class="cn">02</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></span><b>Social<br>Media</b></a><a class="rc" data-i="2" href="#/offline" style="--c:#18B4E8" aria-label="Offline Design"><span class="cn">03</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="11" rx="2"/><path d="M8 15v6M16 15v6M7 9.5h10"/></svg></span><b>Offline<br>Design</b></a><a class="rc" data-i="3" href="#/drone" style="--c:#18C28E" aria-label="Drone Video"><span class="cn">04</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M10 10L6.5 6.5M14 10l3.5-3.5M10 14l-3.5 3.5M14 14l3.5 3.5"/><circle cx="5" cy="5" r="2.4"/><circle cx="19" cy="5" r="2.4"/><circle cx="5" cy="19" r="2.4"/><circle cx="19" cy="19" r="2.4"/></svg></span><b>Drone<br>Video</b></a><a class="rc" data-i="4" href="#/foto" style="--c:#ff6b3d" aria-label="Foto Properti & Event"><span class="cn">05</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.6-2.5h6.8L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></span><b>Foto Properti<br>&amp; Event</b></a><a class="rc" data-i="5" href="#/training" style="--c:#E64BA8" aria-label="Video Training"><span class="cn">06</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M10 8.5v5l4.5-2.5zM8 21h8M12 17v4"/></svg></span><b>Video<br>Training</b></a><a class="rc" data-i="6" href="#/analisa" style="--c:#8BC34A" aria-label="Analisa Sosmed"><span class="cn">07</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"/></svg></span><b>Analisa<br>Sosmed</b></a><a class="rc" data-i="7" href="#/freelance" style="--c:#6366F1" aria-label="Freelance"><span class="cn">08</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l3.5-1 12-12a2.1 2.1 0 00-3-3l-12 12z"/><path d="M14 7l3 3"/></svg></span><b>Freelance</b></a><a class="rc" data-i="8" href="#/dompet" style="--c:#10B981" aria-label="Aplikasi Dompet Keluarga"><span class="cn">09</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 012-2h12v3"/><path d="M3 7v11a2 2 0 002 2h15a1 1 0 001-1V9a1 1 0 00-1-1H5a2 2 0 01-2-1z"/><circle cx="16.5" cy="13.5" r="1.2"/></svg></span><b>Aplikasi<br>Dompet Keluarga</b></a><a class="rc" data-i="0" href="#/event" style="--c:#7C5CFF" aria-label="Marcomm Event"><span class="cn">01</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="M12 13l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z"/></svg></span><b>Marcomm<br>Event</b></a><a class="rc" data-i="1" href="#/sosmed" style="--c:#FF5C7A" aria-label="Social Media"><span class="cn">02</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></span><b>Social<br>Media</b></a><a class="rc" data-i="2" href="#/offline" style="--c:#18B4E8" aria-label="Offline Design"><span class="cn">03</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="11" rx="2"/><path d="M8 15v6M16 15v6M7 9.5h10"/></svg></span><b>Offline<br>Design</b></a><a class="rc" data-i="3" href="#/drone" style="--c:#18C28E" aria-label="Drone Video"><span class="cn">04</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M10 10L6.5 6.5M14 10l3.5-3.5M10 14l-3.5 3.5M14 14l3.5 3.5"/><circle cx="5" cy="5" r="2.4"/><circle cx="19" cy="5" r="2.4"/><circle cx="5" cy="19" r="2.4"/><circle cx="19" cy="19" r="2.4"/></svg></span><b>Drone<br>Video</b></a><a class="rc" data-i="4" href="#/foto" style="--c:#ff6b3d" aria-label="Foto Properti & Event"><span class="cn">05</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.6-2.5h6.8L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></span><b>Foto Properti<br>&amp; Event</b></a><a class="rc" data-i="5" href="#/training" style="--c:#E64BA8" aria-label="Video Training"><span class="cn">06</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M10 8.5v5l4.5-2.5zM8 21h8M12 17v4"/></svg></span><b>Video<br>Training</b></a><a class="rc" data-i="6" href="#/analisa" style="--c:#8BC34A" aria-label="Analisa Sosmed"><span class="cn">07</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"/></svg></span><b>Analisa<br>Sosmed</b></a><a class="rc" data-i="7" href="#/freelance" style="--c:#6366F1" aria-label="Freelance"><span class="cn">08</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l3.5-1 12-12a2.1 2.1 0 00-3-3l-12 12z"/><path d="M14 7l3 3"/></svg></span><b>Freelance</b></a><a class="rc" data-i="8" href="#/dompet" style="--c:#10B981" aria-label="Aplikasi Dompet Keluarga"><span class="cn">09</span><span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 012-2h12v3"/><path d="M3 7v11a2 2 0 002 2h15a1 1 0 001-1V9a1 1 0 00-1-1H5a2 2 0 01-2-1z"/><circle cx="16.5" cy="13.5" r="1.2"/></svg></span><b>Aplikasi<br>Dompet Keluarga</b></a></div></div>
+<div class="ctl"><button class="nv" id="prev" aria-label="Karya sebelumnya">‹</button><button class="nv" id="next" aria-label="Karya berikutnya">›</button><div class="pg"><i id="pf"></i></div><b class="cnt" id="cnt">01</b></div></div></div></section>
+<article class="work" id="w-event" style="--c:#7C5CFF"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">01</span><h2>Brand Identity & Guidelines Marcomm</h2></div><p class="wd">Currently working at Ciputra Group as a Marketing Communication professional, contributing to successful property marketing campaigns through brand identity management, event execution, digital content creation, video production, and advertising initiatives that support sales performance and brand growth.</p><div class="figs"><figure class=""><img loading="lazy" src="images/img-01.jpg" alt="Gathering Cosplay With Cat Lovers" data-z><figcaption>Gathering Cosplay With Cat Lovers</figcaption></figure><figure class=""><img loading="lazy" src="images/img-02.jpg" alt="Arabian Night" data-z><figcaption>Arabian Night</figcaption></figure><figure class=""><img loading="lazy" src="images/img-03.jpg" alt="La Festa in Giardino" data-z><figcaption>La Festa in Giardino</figcaption></figure><figure class=""><img loading="lazy" src="images/img-04.jpg" alt="Ballet Stars Competition 2025" data-z><figcaption>Ballet Stars Competition 2025</figcaption></figure><figure class=""><img loading="lazy" src="images/img-05.jpg" alt="Fun Run 5K Treasure Hunt" data-z><figcaption>Fun Run 5K Treasure Hunt</figcaption></figure></div>
+<nav class="pager2"><a href="#/freelance">← 08 Freelance</a><a href="#/sosmed">02 Social Media →</a></nav></article><article class="work" id="w-sosmed" style="--c:#FF5C7A"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">02</span><h2>Social Media</h2></div><p class="wd">Sejak 2021 mengelola media sosial CitraLand Megah: iklan berbayar, strategi konten, eksekusi kreatif, dan publikasi di Instagram, Facebook, dan TikTok, juga @batamfunrun.id dan @css.batam.</p><div class="figs"><figure class=""><img loading="lazy" src="images/img-06.jpg" alt="Social Media CitraLand Megah" data-z><figcaption>Social Media CitraLand Megah</figcaption></figure><figure class=""><img loading="lazy" src="images/img-07.jpg" alt="Konten Sosial Media" data-z><figcaption>Konten Sosial Media</figcaption></figure><figure class=""><img loading="lazy" src="images/img-08.jpg" alt="Konten Sosial Media CSS (Ciputra Sales Sport Batam)" data-z><figcaption>Konten Sosial Media CSS (Ciputra Sales Sport Batam)</figcaption></figure><figure class=""><img loading="lazy" src="images/img-09.jpg" alt="Konten Sosial Media Batam Fun Run" data-z><figcaption>Konten Sosial Media Batam Fun Run</figcaption></figure></div>
+<nav class="pager2"><a href="#/event">← 01 Marcomm Event</a><a href="#/offline">03 Offline Design →</a></nav></article><article class="work" id="w-offline" style="--c:#18B4E8"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">03</span><h2>Design Offline</h2></div><p class="wd">Besides digital design, I am responsible for developing various offline promotional materials such as flyers, booklets, hoardings, and billboards, ensuring consistent brand communication across all marketing channels.</p><div class="figs"><figure class=""><img loading="lazy" src="images/img-10.jpg" alt="Flyer Cetak Offline" data-z><figcaption>Flyer Cetak Offline</figcaption></figure><figure class=""><img loading="lazy" src="images/img-11.jpg" alt="E-Brochure Design" data-z><figcaption>E-Brochure Design</figcaption></figure><figure class=""><img loading="lazy" src="images/img-12.jpg" alt="Hoarding, Banner, T Banner, Billboard" data-z><figcaption>Hoarding, Banner, T Banner, Billboard</figcaption></figure></div>
+<nav class="pager2"><a href="#/sosmed">← 02 Social Media</a><a href="#/drone">04 Drone Video →</a></nav></article><article class="work" id="w-drone" style="--c:#18C28E"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">04</span><h2>Drone Pilot / Video</h2></div><p class="wd">Piloting drones to capture aerial photography and videography of project locations: construction progress, project updates, site developments, and visual assets for marketing.</p><div class="figs g2"><figure class=""><img loading="lazy" src="images/img-13.jpg" alt="Dokumentasi udara 01" data-z><figcaption>Dokumentasi udara 01</figcaption></figure><figure class=""><img loading="lazy" src="images/img-14.jpg" alt="Dokumentasi udara 02" data-z><figcaption>Dokumentasi udara 02</figcaption></figure><figure class=""><img loading="lazy" src="images/img-15.jpg" alt="Dokumentasi udara 03" data-z><figcaption>Dokumentasi udara 03</figcaption></figure><figure class=""><img loading="lazy" src="images/img-16.jpg" alt="Dokumentasi udara 04" data-z><figcaption>Dokumentasi udara 04</figcaption></figure><figure class=""><img loading="lazy" src="images/img-17.jpg" alt="Dokumentasi udara 05" data-z><figcaption>Dokumentasi udara 05</figcaption></figure><figure class=""><img loading="lazy" src="images/img-18.jpg" alt="Dokumentasi udara 06" data-z><figcaption>Dokumentasi udara 06</figcaption></figure><figure class=""><img loading="lazy" src="images/img-19.jpg" alt="Dokumentasi udara 07" data-z><figcaption>Dokumentasi udara 07</figcaption></figure></div>
+<nav class="pager2"><a href="#/offline">← 03 Offline Design</a><a href="#/foto">05 Foto Properti & Event →</a></nav></article><article class="work" id="w-foto" style="--c:#ff6b3d"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">05</span><h2>Foto Properti & Event</h2></div><p class="wd">Foto properti CitraLand (eksterior, rumah contoh, dan interior) serta dokumentasi event Fun Run, untuk mendukung brand awareness dan promosi.</p><div class="figs"><figure class=""><img loading="lazy" src="images/img-20.jpg" alt="Foto properti CitraLand" data-z><figcaption>Foto properti CitraLand</figcaption></figure><figure class=""><img loading="lazy" src="images/img-21.jpg" alt="Dokumentasi event Fun Run" data-z><figcaption>Dokumentasi event Fun Run</figcaption></figure></div>
+<nav class="pager2"><a href="#/drone">← 04 Drone Video</a><a href="#/training">06 Video Training →</a></nav></article><article class="work" id="w-training" style="--c:#E64BA8"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">06</span><h2>Video Content Creation Training</h2></div><p class="wd">Conducted video content training for sales teams, covering filming techniques, composition, and video editing.</p><div class="figs"><div class="pgrid p4"><figure><img loading="lazy" src="images/img-22.jpg" alt="Konten sales: Masa depan" data-z><figcaption>Masa depan</figcaption></figure><figure><img loading="lazy" src="images/img-23.jpg" alt="Konten sales: Presenter di marketing gallery" data-z><figcaption>Presenter di marketing gallery</figcaption></figure><figure><img loading="lazy" src="images/img-24.jpg" alt="Konten sales: Struktur rumah yang baik" data-z><figcaption>Struktur rumah yang baik</figcaption></figure><figure><img loading="lazy" src="images/img-25.jpg" alt="Konten sales: Sini saya" data-z><figcaption>Sini saya</figcaption></figure><figure><img loading="lazy" src="images/img-26.jpg" alt="Konten sales: Jangan beli rumah sembarangan" data-z><figcaption>Jangan beli rumah sembarangan</figcaption></figure><figure><img loading="lazy" src="images/img-27.jpg" alt="Konten sales: Ciri rumah dengan standar bangunan bagus" data-z><figcaption>Ciri rumah dengan standar bangunan bagus</figcaption></figure><figure><img loading="lazy" src="images/img-28.jpg" alt="Konten sales: Jangan sampai cepat rusak" data-z><figcaption>Jangan sampai cepat rusak</figcaption></figure><figure><img loading="lazy" src="images/img-29.jpg" alt="Konten sales: Yang wajib dicek" data-z><figcaption>Yang wajib dicek</figcaption></figure></div></div>
+<nav class="pager2"><a href="#/foto">← 05 Foto Properti & Event</a><a href="#/analisa">07 Analisa Sosmed →</a></nav></article><article class="work" id="w-analisa" style="--c:#8BC34A"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">07</span><h2>Analisa Social Media</h2></div><p class="wd">Peningkatan pengunjung luar biasa dan penjualan sebesar 11 Miliar untuk CitraLand Megah Batam, rekor penjualan online terbesar sepanjang tahun.</p><div class="figs"><div class="an"><div class="an-h"><div><small>ANALISA SOCIAL MEDIA</small><h3>Instagram CitraLand Megah Batam</h3></div><p>Performa konten, jangkauan, dan dampak pada penjualan</p></div>
+<div class="an-k"><div class="an-c"><span>Upload konten / bulan</span><b>24–30</b></div><div class="an-c"><span>Reach / bulan</span><b>35.000–65.000</b></div><div class="an-c"><span>Profile visit / bulan</span><b>2.800–4.500</b></div><div class="an-c"><span>Engagement rate</span><b>1,8–3%</b></div><div class="an-c"><span>Pertumbuhan follower</span><b>+1–2,5% / bln</b></div></div>
+<div class="an-g"><div class="an-c"><h4>Frekuensi upload</h4><p>5–7 konten per minggu, di atas rata-rata akun properti lokal (16–20 per bulan).</p><div class="bar b1" style="width:58%">Feed statis 55–60%</div><div class="bar b2" style="width:44%">Reels 40–45%</div></div>
+<div class="an-c"><h4>Jenis konten dominan</h4><div class="tags"><span>Promo &amp; penawaran (DP, KPR)</span><span>Edukasi properti &amp; KPR</span><span>Showcase cluster</span><span>Lifestyle &amp; testimoni</span><span>Momentum event</span></div></div>
+<div class="an-c"><h4>Tren bulan ke bulan</h4><div class="tr"><div><b>+15–30%</b><span>Reach</span></div><div><b>+10–20%</b><span>Profile visit</span></div><div><b>Stabil</b><span>Interaksi</span></div></div></div></div>
+<div class="an-b"><div class="an-c"><h4>Dampak penjualan: sekitar Rp11 miliar, penjualan online terbesar sepanjang tahun</h4><div class="ov"><table><thead><tr><th>Klien</th><th>Usia</th><th>Channel</th><th>CTA</th><th>Konten</th><th>Hasil</th><th>Harga unit</th></tr></thead><tbody>
+<tr><td>A.</td><td>37</td><td>Google Ads</td><td>Chat Bot</td><td>Osaka Hills</td><td><b>CLOSING</b></td><td>Rp1.530.615.000</td></tr>
+<tr><td>R. Z.</td><td>48</td><td>Meta</td><td>Meta</td><td>Grand Hills</td><td><b>CLOSING</b></td><td>Rp2.472.000.000</td></tr>
+<tr><td>H. L.</td><td>42</td><td>Google Ads</td><td>Sales Candy</td><td>Grand Hills</td><td><b>CLOSING</b></td><td>Rp2.064.400.000</td></tr>
+<tr><td>H. H.</td><td>46</td><td>Meta</td><td>Meta</td><td>Minami Extend</td><td><b>CLOSING</b></td><td>Rp1.482.570.000</td></tr>
+<tr><td>E. H.</td><td>38</td><td>Meta</td><td>Meta</td><td>Grand Hills</td><td><b>CLOSING</b></td><td>Rp2.535.120.000</td></tr></tbody></table></div></div>
+<aside class="an-s"><small>KESIMPULAN</small><h4>Upload konsisten 24–30 konten per bulan, didukung video dan visual rapi, menaikkan reach dan profile visit serta menghasilkan leads dan closing.</h4><p>Memperkuat citra CitraLand Megah Batam sebagai kawasan hunian premium di Batam.</p></aside></div></div></div>
+<nav class="pager2"><a href="#/training">← 06 Video Training</a><a href="#/freelance">08 Freelance →</a></nav></article><article class="work" id="w-freelance" style="--c:#6366F1"><a class="back" href="#/karya">← Semua karya</a>
+<div class="wh"><span class="num">08</span><h2>Freelance</h2></div><p class="wd">Proyek freelance di berbagai bidang kreatif: 3D animation, desain, logo, poster, dan lainnya.</p><div class="fl"><section class="fl-s"><h3>3D Animation <small>Billboard 3D · video</small></h3><div class="fl-g"><figure class="vf"><div class="vw" data-v="videos/3D_ANGKASA_final_okk.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-30.jpg" alt="Billboard 3D: Astronot di jendela stasiun luar angkasa"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Astronot di jendela stasiun luar angkasa</figcaption></figure><figure class="vf"><div class="vw" data-v="videos/ikan_hiu_3D_Final_okee.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-31.jpg" alt="Billboard 3D: Ikan hiu 3D di akuarium"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Ikan hiu 3D di akuarium</figcaption></figure><figure class="vf"><div class="vw" data-v="videos/animasi.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-32.jpg" alt="Billboard 3D: Karakter Li Claudia, Wakil Walikota Batam"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Karakter Li Claudia, Wakil Walikota Batam</figcaption></figure><figure class="vf"><div class="vw" data-v="videos/3D_kucing.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-33.jpg" alt="Billboard 3D: Kucing 3D untuk Sun Li Media"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Kucing 3D untuk Sun Li Media</figcaption></figure><figure class="vf"><div class="vw" data-v="videos/Pemerintahan_1_okss.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-34.jpg" alt="Billboard 3D: Welcome to Batam, BP Batam & Pemerintah Kota Batam"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Welcome to Batam, BP Batam & Pemerintah Kota Batam</figcaption></figure><figure class="vf"><div class="vw" data-v="videos/Pemerintahan_2_okss.mp4" data-loop="0" role="button" tabindex="0" aria-label="Putar video"><img loading="lazy" src="images/img-35.jpg" alt="Billboard 3D: Kawasan Batam, BP Batam & Pemerintah Kota Batam"><video playsinline preload="none" hidden></video><span class="pb" aria-hidden="true">▶</span><span class="vt">0:30</span></div><figcaption>Kawasan Batam, BP Batam & Pemerintah Kota Batam</figcaption></figure></div></section><section class="fl-s"><h3>Design <small>Desain promosi SBH Travel</small></h3><div class="fl-g fl-3"><figure><img loading="lazy" src="images/img-36.jpg" alt="Desain SBH Travel: Tiket Atraksi Singapore (update 1 Januari 2026)" data-z><figcaption>Tiket Atraksi Singapore (update 1 Januari 2026)</figcaption></figure><figure><img loading="lazy" src="images/img-37.jpg" alt="Desain SBH Travel: Tiket Atraksi Malaysia (update 1 Januari 2026)" data-z><figcaption>Tiket Atraksi Malaysia (update 1 Januari 2026)</figcaption></figure><figure><img loading="lazy" src="images/img-38.jpg" alt="Desain SBH Travel: Tiket Atraksi Singapore & Malaysia (update 1 Januari 2026)" data-z><figcaption>Tiket Atraksi Singapore & Malaysia (update 1 Januari 2026)</figcaption></figure><figure><img loading="lazy" src="images/img-39.jpg" alt="Desain SBH Travel: Tiket Singapore Zoo" data-z><figcaption>Tiket Singapore Zoo</figcaption></figure><figure><img loading="lazy" src="images/img-40.jpg" alt="Desain SBH Travel: Tiket Bird Paradise" data-z><figcaption>Tiket Bird Paradise</figcaption></figure><figure><img loading="lazy" src="images/img-41.jpg" alt="Desain SBH Travel: Paket Tour Thailand, Imlek & Ramadhan 2026" data-z><figcaption>Paket Tour Thailand, Imlek & Ramadhan 2026</figcaption></figure><figure><img loading="lazy" src="images/img-42.jpg" alt="Desain SBH Travel: Paket Tour Hainan, Imlek & Ramadhan 2026" data-z><figcaption>Paket Tour Hainan, Imlek & Ramadhan 2026</figcaption></figure><figure><img loading="lazy" src="images/img-43.jpg" alt="Desain SBH Travel: Paket Tour Korea, Imlek & Ramadhan 2026" data-z><figcaption>Paket Tour Korea, Imlek & Ramadhan 2026</figcaption></figure><figure><img loading="lazy" src="images/img-44.jpg" alt="Desain SBH Travel: Paket Tour Vietnam, Imlek & Ramadhan 2026" data-z><figcaption>Paket Tour Vietnam, Imlek & Ramadhan 2026</figcaption></figure><figure><img loading="lazy" src="images/img-45.jpg" alt="Desain SBH Travel: Tiket Atraksi Singapore (update 1 Desember 2025)" data-z><figcaption>Tiket Atraksi Singapore (update 1 Desember 2025)</figcaption></figure><figure><img loading="lazy" src="images/img-46.jpg" alt="Desain SBH Travel: Tiket Atraksi Malaysia (update 1 Desember 2025)" data-z><figcaption>Tiket Atraksi Malaysia (update 1 Desember 2025)</figcaption></figure><figure><img loading="lazy" src="images/img-47.jpg" alt="Desain SBH Travel: Tiket Atraksi Singapore & Malaysia (update 1 Desember 2025)" data-z><figcaption>Tiket Atraksi Singapore & Malaysia (update 1 Desember 2025)</figcaption></figure><figure><img loading="lazy" src="images/img-48.jpg" alt="Desain SBH Travel: Hainan Tour (update 20 Oktober 2025)" data-z><figcaption>Hainan Tour (update 20 Oktober 2025)</figcaption></figure></div></section><section class="fl-s"><h3>Logo <small>Logo & brand guidelines Matahar1</small></h3><div class="fl-g fl-3"><figure><img loading="lazy" src="images/img-49.jpg" alt="Logo: Brand Guidelines Matahar1" data-z><figcaption>Brand Guidelines Matahar1</figcaption></figure><figure><img loading="lazy" src="images/img-50.jpg" alt="Logo: Makna logo Matahar1 dan inisial D.U.M.A.I (Kota Dumai)" data-z><figcaption>Makna logo Matahar1 dan inisial D.U.M.A.I (Kota Dumai)</figcaption></figure><figure><img loading="lazy" src="images/img-51.jpg" alt="Logo: Logo tanpa pattern dan dengan pattern" data-z><figcaption>Logo tanpa pattern dan dengan pattern</figcaption></figure><figure><img loading="lazy" src="images/img-52.jpg" alt="Logo: Konstruksi logo dan grid huruf" data-z><figcaption>Konstruksi logo dan grid huruf</figcaption></figure><figure><img loading="lazy" src="images/img-53.jpg" alt="Logo: Variasi warna, font Gilroy-Bold, dan filosofi warna" data-z><figcaption>Variasi warna, font Gilroy-Bold, dan filosofi warna</figcaption></figure><figure><img loading="lazy" src="images/img-54.jpg" alt="Logo: App icon Matahar1" data-z><figcaption>App icon Matahar1</figcaption></figure></div></section><section class="fl-s"><h3>Poster <small>Poster film CitraLandMegah & event</small></h3><div class="fl-g fl-4"><figure><img loading="lazy" src="images/img-55.jpg" alt="Poster: Cek Proyek CLMB, CitraLandMegah Movie" data-z><figcaption>Cek Proyek CLMB, CitraLandMegah Movie</figcaption></figure><figure><img loading="lazy" src="images/img-56.jpg" alt="Poster: Pengabdi CLMB, CitraLandMegah Movie" data-z><figcaption>Pengabdi CLMB, CitraLandMegah Movie</figcaption></figure><figure><img loading="lazy" src="images/img-57.jpg" alt="Poster: Fast & Precise CLMB: The Final Handover Saga" data-z><figcaption>Fast & Precise CLMB: The Final Handover Saga</figcaption></figure><figure><img loading="lazy" src="images/img-58.jpg" alt="Poster: Gadis Proyek, CitraLandMegah Movie" data-z><figcaption>Gadis Proyek, CitraLandMegah Movie</figcaption></figure><figure><img loading="lazy" src="images/img-59.jpg" alt="Poster: Keluarga Bahagia, CitraLandMegah Movie" data-z><figcaption>Keluarga Bahagia, CitraLandMegah Movie</figcaption></figure><figure><img loading="lazy" src="images/img-60.jpg" alt="Poster: Mengungkap Tragedi Salah Beli Rumah, CitraLandMegah Movie" data-z><figcaption>Mengungkap Tragedi Salah Beli Rumah, CitraLandMegah Movie</figcaption></figure><figure><img loading="lazy" src="images/img-61.jpg" alt="Poster: Poster Family Day (Fun Walk & Bansos), Bank BTN & DPD REI Khusus Batam" data-z><figcaption>Poster Family Day (Fun Walk & Bansos), Bank BTN & DPD REI Khusus Batam</figcaption></figure></div></section><section class="fl-s"><h3>Lainnya</h3><div class="fl-e">Konten segera ditambahkan</div></section></div>
+<nav class="pager2"><a href="#/analisa">← 07 Analisa Sosmed</a><a href="#/dompet">09 Aplikasi Dompet Keluarga →</a></nav></article>
+<article class="work" id="w-dompet" style="--c:#10B981"><a class="back" href="#/karya">← Semua karya</a><div class="wh"><span class="num">09</span><h2>Aplikasi Dompet Keluarga</h2><span class="wip">Sedang dikembangkan</span></div><p class="wd">Aplikasi keuangan keluarga yang sedang saya kembangkan sendiri, mulai dari konsep, desain antarmuka, sampai materi promosinya. Anggota keluarga bisa mencatat pengeluaran dalam hitungan detik, mengatur budget per pos, mengingat tagihan, dan mencapai target bersama dalam satu aplikasi.</p><div class="try"><a class="cta-try" href="https://www.dompetkeluarga.asia" target="_blank" rel="noopener"><span>Coba di sini</span><i aria-hidden="true">↗</i></a></div><div class="figs"><figure><img loading="lazy" src="images/img-62.jpg" alt="Banner Dompet Keluarga" data-z><figcaption>Banner Dompet Keluarga</figcaption></figure><div class="pgrid"><figure><img loading="lazy" src="images/img-63.jpg" alt="Beranda: saldo, budget bulan ini, tagihan terdekat" data-z><figcaption>Beranda: saldo, budget bulan ini, tagihan terdekat</figcaption></figure><figure><img loading="lazy" src="images/img-64.jpg" alt="Catat cepat: tulis singkat, jumlah dan pos terisi otomatis" data-z><figcaption>Catat cepat: tulis singkat, jumlah dan pos terisi otomatis</figcaption></figure><figure><img loading="lazy" src="images/img-65.jpg" alt="Budget vs actual dan pengingat tagihan" data-z><figcaption>Budget vs actual dan pengingat tagihan</figcaption></figure><figure><img loading="lazy" src="images/img-66.jpg" alt="Target keluarga dan setoran per bulan" data-z><figcaption>Target keluarga dan setoran per bulan</figcaption></figure><figure><img loading="lazy" src="images/img-67.jpg" alt="Satu kode keluarga dengan peran Admin, Anggota, Anak" data-z><figcaption>Satu kode keluarga dengan peran Admin, Anggota, Anak</figcaption></figure></div></div><nav class="pager2"><a href="#/freelance">← 08 Freelance</a><a href="#/event">01 Marcomm Event →</a></nav></article>
+<section class="sec home-only" id="tentang"><div class="dash">
+<aside class="sd"><span class="lg">R</span><nav><a href="#/" class=""><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-8 9 8v9a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1z"/></svg><span>Beranda</span></a><a href="#/karya" class=""><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span>Karya</span></a><a href="#/tentang" class="on"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2M3 13h18"/></svg><span>Profil</span></a><a href="#/kontak" class=""><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><span>Kontak</span></a></nav></aside>
+<div class="mn"><div class="ban"><img src="images/img-68.jpg" alt="Radius Kosgoro di padang rumput bersama Totoro"><div class="meta"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/></svg><div><b>2012 – sekarang</b><small>Perjalanan karier</small></div></span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11a7 7 0 0114 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><div><b>Indonesia</b><small>Marcomm &amp; Creative</small></div></span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg><div><b>STMIK IBBI</b><small>Ilmu Komputer</small></div></span><em><a href="https://instagram.com/diuskosgoro" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></a><a href="https://www.behance.net/diuskosgoro" aria-label="Behance" target="_blank" rel="noopener">Bē</a><a href="https://www.linkedin.com/in/radiuskosgoro/" aria-label="LinkedIn" target="_blank" rel="noopener">in</a></em></div></div>
+<div class="cols"><div class="lc"><div class="prof"><img class="av" src="images/img-69.jpg" alt="Radius Kosgoro"><h2>Radius Kosgoro</h2><p>Marcomm &amp; Creative Designer<br>Ciputra Group</p><div class="bt"><a class="b1" href="https://www.linkedin.com/in/radiuskosgoro/" target="_blank" rel="noopener">LinkedIn</a><a class="b2" href="https://www.behance.net/diuskosgoro" target="_blank" rel="noopener">Behance</a><a class="b3" href="#" data-cv><span>Unduh CV (PDF)</span><i aria-hidden="true">↓</i></a></div></div>
+<div class="ex"><h3>Pekerjaan Sekarang</h3><div class="er"><i style="--c:#ff6b3d">C</i><div><b>Marcomm</b><small>Ciputra Group · 2021 – sekarang</small></div></div><div class="er"><i style="--c:#6366f1">F</i><div><b>Senior Graphic Designer</b><small>Freelance · 2018 – sekarang</small></div></div><h3>Sebelumnya</h3><div class="er"><i style="--c:#18b4e8">D</i><div><b>Senior Graphic Designer</b><small>Yayasan Del · 2018 – 2021</small></div></div><div class="er"><i style="--c:#ff6b3d">A</i><div><b>Senior Graphic Designer</b><small>Alibaba Group · 2017 – 2018</small></div></div><div class="er"><i style="--c:#e64ba8">CM</i><div><b>Junior Graphic Designer</b><small>Creative Media · 2016 (6 bulan)</small></div></div><div class="er"><i style="--c:#18c28e">S</i><div><b>Computer Science Teacher</b><small>Yayasan Sutomo 1 · 2012 – 2016</small></div></div></div></div>
+<div class="rcol"><div class="r1"><div class="bio"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg>Biografi</h3><p>I'm Radius Kosgoro, a creative designer who believes that every great idea deserves a powerful visual identity. Through thoughtful design, I turn concepts into engaging visuals that inspire, communicate, and leave a lasting impression.</p><p><b>Together, let's create designs that tell stories and connect with people.</b></p></div>
+<div class="cd"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Bidang Karya</h3><div class="kg"><a class="kw" href="#/event"><i style="--c:#7C5CFF"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="3"/><path d="M8 3v4M16 3v4M3 10h18"/><path d="M12 13l1.2 2.4 2.6.4-1.9 1.8.5 2.6-2.4-1.3-2.4 1.3.5-2.6-1.9-1.8 2.6-.4z"/></svg></i><div><b>Marcomm Event</b><small>Brand Identity & Event</small></div></a><a class="kw" href="#/sosmed"><i style="--c:#FF5C7A"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></i><div><b>Social Media</b><small>CitraLand Megah</small></div></a><a class="kw" href="#/offline"><i style="--c:#18B4E8"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="11" rx="2"/><path d="M8 15v6M16 15v6M7 9.5h10"/></svg></i><div><b>Offline Design</b><small>Flyer, Billboard, Booklet</small></div></a><a class="kw" href="#/drone"><i style="--c:#18C28E"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="2.2"/><path d="M10 10L6.5 6.5M14 10l3.5-3.5M10 14l-3.5 3.5M14 14l3.5 3.5"/><circle cx="5" cy="5" r="2.4"/><circle cx="19" cy="5" r="2.4"/><circle cx="5" cy="19" r="2.4"/><circle cx="19" cy="19" r="2.4"/></svg></i><div><b>Drone Video</b><small>Aerial Project</small></div></a><a class="kw" href="#/foto"><i style="--c:#ff6b3d"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.6-2.5h6.8L17 8h3a1 1 0 011 1v9a1 1 0 01-1 1H4a1 1 0 01-1-1V9a1 1 0 011-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></i><div><b>Foto Properti & Event</b><small>Foto properti & dokumentasi event</small></div></a><a class="kw" href="#/training"><i style="--c:#E64BA8"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="13" rx="2.5"/><path d="M10 8.5v5l4.5-2.5zM8 21h8M12 17v4"/></svg></i><div><b>Video Training</b><small>Content Creation</small></div></a><a class="kw" href="#/analisa"><i style="--c:#8BC34A"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"/></svg></i><div><b>Analisa Sosmed</b><small>Reach & Leads</small></div></a><a class="kw" href="#/freelance"><i style="--c:#6366F1"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 21l3.5-1 12-12a2.1 2.1 0 00-3-3l-12 12z"/><path d="M14 7l3 3"/></svg></i><div><b>Freelance</b><small>3D, Design, Logo, Poster</small></div></a><a class="kw" href="#/dompet"><i style="--c:#10B981"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7a2 2 0 012-2h12v3"/><path d="M3 7v11a2 2 0 002 2h15a1 1 0 001-1V9a1 1 0 00-1-1H5a2 2 0 01-2-1z"/><circle cx="16.5" cy="13.5" r="1.2"/></svg></i><div><b>Aplikasi Dompet Keluarga</b><small>Aplikasi Keuangan</small></div></a></div></div></div>
+<div class="r2"><div class="cd"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11.5V16c0 1.5 3 3 6 3s6-1.5 6-3v-4.5"/></svg>Pendidikan</h3><b class="ed">Sekolah Tinggi Manajemen Ilmu Komputer IBBI</b><p class="mut">Best Student and 1st Place twice in video editing and animation competitions.</p></div>
+<div class="cd"><h3><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a1 1 0 011-1h4a1 1 0 011 1v2M3 13h18"/></svg>Kompetensi &amp; Alat</h3><div class="tools"><span style="--c:#9999ff;--d:#00005b">Pr</span><span style="--c:#ff9a00;--d:#330000">Ai</span><span style="--c:#9999ff;--d:#00005b">Ae</span><span style="--c:#31a8ff;--d:#001e36">Ps</span><span style="--c:#fff;--d:#222">Cc</span></div><div class="skl"><span>Brand Identity</span><span>Social Media</span><span>Motion Graphics</span><span>Video Editing</span><span>Drone &amp; Foto</span><span>Event</span></div></div></div></div></div></div></div></section>
+<section class="contact" id="kontak"><div class="ct-l"><span class="ct-k">Kontak</span><h2>Tertarik dengan portofolio saya?<br><b>Ayo bicara.</b></h2><p>Mari diskusikan proyek, kolaborasi, atau peluang kerja berikutnya.</p><div class="ct-b"><a class="mail cvb" href="#" data-cv><span>Unduh CV (PDF)</span><i aria-hidden="true">↓</i></a><a class="mail" href="https://wa.me/6281262638017?text=Halo%20Radius%2C%20saya%20tertarik%20dengan%20portofolio%20Anda" target="_blank" rel="noopener">Chat via WhatsApp <span aria-hidden="true">→</span></a></div></div><div class="ct-r"><a class="cr" href="https://mail.google.com/mail/?view=cm&fs=1&to=diuskosgoro@gmail.com&su=Halo%20Radius" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3"/><path d="M4 7.5l8 6 8-6"/></svg></i><span><small>Email</small><b>diuskosgoro@gmail.com</b></span><em aria-hidden="true">↗</em></a><a class="cr" href="https://wa.me/6281262638017?text=Halo%20Radius%2C%20saya%20tertarik%20dengan%20portofolio%20Anda" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.4 4-2 1.3a11 11 0 005.2 5.2l1.3-2 4 1.4v3a2.2 2.2 0 01-2.4 2.2A15.5 15.5 0 014.4 5.9 2.2 2.2 0 016.6 3.5z"/></svg></i><span><small>WhatsApp</small><b>0812 6263 8017</b></span><em aria-hidden="true">↗</em></a><a class="cr" href="https://instagram.com/diuskosgoro" target="_blank" rel="noopener"><i><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".7"/></svg></i><span><small>Instagram</small><b>@diuskosgoro</b></span><em aria-hidden="true">↗</em></a><a class="cr" href="https://www.behance.net/diuskosgoro" target="_blank" rel="noopener"><i><b>Bē</b></i><span><small>Behance</small><b>diuskosgoro</b></span><em aria-hidden="true">↗</em></a><a class="cr" href="https://www.linkedin.com/in/radiuskosgoro/" target="_blank" rel="noopener"><i><b>in</b></i><span><small>LinkedIn</small><b>Radius Kosgoro</b></span><em aria-hidden="true">↗</em></a></div></section>
+</main><footer>© 2026 Radius Kosgoro</footer>
+<div class="lb" id="lb" hidden><img alt=""></div>
+<script>(() => {
+  const $ = s => document.querySelector(s);
+  const TOTAL = 156, fmt = t => Math.floor(t / 60) + ':' + String(Math.floor(t % 60)).padStart(2, '0');
+  const TRACKS = [
+    { title: 'Malam Jingga', bpm: 92, swing: .10, root: 60, scale: [0, 2, 4, 7, 9], cut: 5200,
+      chords: [[60,64,67,71],[57,60,64,67],[53,57,60,64],[55,59,62,65]] },
+    { title: 'Kopi Pagi', bpm: 78, swing: .16, root: 62, scale: [0, 2, 4, 7, 9], cut: 3600, lead: .22, crackle: true,
+      chords: [[62,66,69,73],[59,62,66,69],[55,59,62,66],[57,61,64,67]] },
+    { title: 'Senja Pelabuhan', bpm: 84, swing: .18, root: 57, scale: [0, 3, 5, 7, 10], cut: 3000, lead: .26, crackle: true, kicks: [0, 7, 10],
+      chords: [[57,60,64,67],[53,57,60,64],[50,53,57,60],[52,56,59,62]] },
+    { title: 'Kabut Tipis', bpm: 70, swing: .20, root: 60, scale: [0, 3, 5, 7, 10], cut: 2600, lead: .18, crackle: true, kicks: [0, 9], snares: [4, 12], snareF: 1400,
+      chords: [[60,63,67,70],[53,56,60,63],[56,60,63,67],[55,59,62,65]] },
+    { title: 'Jalan Pulang', bpm: 88, swing: .12, root: 65, scale: [0, 2, 4, 7, 9], cut: 4200, lead: .3,
+      chords: [[53,57,60,64],[52,55,59,62],[50,53,57,60],[48,52,55,59]] }
+  ];
+  let ti = 0;
+  function paintTrack() { const t = document.getElementById('ttlM'); if (t) t.textContent = TRACKS[ti].title; }
+  /* ---------- Mesin audio (WebAudio, tanpa file) ---------- */
+  const AC = window.AudioContext || window.webkitAudioContext;
+  let ctx, master, fx, analyser, noise, bus, timer, nextTime = 0, step = 0;
+  let playing = false, muted = false, looping = false, elapsed = 0;
+  const mtof = n => 440 * Math.pow(2, (n - 69) / 12);
+
+  function ensure() {
+    if (ctx) return;
+    ctx = new AC();
+    master = ctx.createGain(); master.gain.value = muted ? 0 : .85;
+    fx = ctx.createBiquadFilter(); fx.type = 'lowpass'; fx.frequency.value = 5200;
+    const comp = ctx.createDynamicsCompressor();
+    analyser = ctx.createAnalyser(); analyser.fftSize = 64;
+    fx.connect(comp); comp.connect(master); master.connect(analyser); analyser.connect(ctx.destination);
+    noise = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
+    const d = noise.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+  }
+  function newBus(T) {
+    const g = ctx.createGain(); g.connect(fx);
+    const send = ctx.createGain(); send.gain.value = .3;
+    const dl = ctx.createDelay(1); dl.delayTime.value = 60 / T.bpm * .75;
+    const fb = ctx.createGain(); fb.gain.value = .38;
+    const lp = ctx.createBiquadFilter(); lp.type = 'lowpass'; lp.frequency.value = 2200;
+    send.connect(dl); dl.connect(lp); lp.connect(fb); fb.connect(dl); lp.connect(g);
+    return { g, send, nodes: [g, send, dl, fb, lp] };
+  }
+  function retire(b) {
+    if (!b) return;
+    b.g.gain.setTargetAtTime(0, ctx.currentTime, .05);
+    setTimeout(() => b.nodes.forEach(n => { try { n.disconnect(); } catch (e) {} }), 700);
+  }
+  function startTrack() {
+    retire(bus);
+    bus = newBus(TRACKS[ti]);
+    fx.frequency.setTargetAtTime(TRACKS[ti].cut || 5200, ctx.currentTime, .15);
+    step = 0; nextTime = ctx.currentTime + .08;
+  }
+  function tone(type, freq, t, len, peak, dest, att = .01) {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.type = type; o.frequency.value = freq;
+    g.gain.setValueAtTime(.0001, t);
+    g.gain.linearRampToValueAtTime(peak, t + att);
+    g.gain.exponentialRampToValueAtTime(.0001, t + len);
+    o.connect(g).connect(dest); o.start(t); o.stop(t + len + .05);
+  }
+  function pad(ch, t, len) {
+    ch.forEach((n, k) => {
+      const o = ctx.createOscillator(), g = ctx.createGain();
+      o.type = 'triangle'; o.frequency.value = mtof(n); o.detune.value = k % 2 ? 6 : -6;
+      g.gain.setValueAtTime(.0001, t);
+      g.gain.linearRampToValueAtTime(.045, t + .3);
+      g.gain.setValueAtTime(.045, t + len * .7);
+      g.gain.linearRampToValueAtTime(.0001, t + len);
+      o.connect(g).connect(bus.g); o.start(t); o.stop(t + len + .05);
+    });
+  }
+  function kick(t) {
+    const o = ctx.createOscillator(), g = ctx.createGain();
+    o.frequency.setValueAtTime(130, t); o.frequency.exponentialRampToValueAtTime(42, t + .14);
+    g.gain.setValueAtTime(.55, t); g.gain.exponentialRampToValueAtTime(.001, t + .32);
+    o.connect(g).connect(bus.g); o.start(t); o.stop(t + .4);
+  }
+  function hit(t, type, freq, peak, len) {
+    const s = ctx.createBufferSource(); s.buffer = noise;
+    const f = ctx.createBiquadFilter(); f.type = type; f.frequency.value = freq;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(peak, t); g.gain.exponentialRampToValueAtTime(.001, t + len);
+    s.connect(f).connect(g).connect(bus.g); s.start(t, Math.random() * .5); s.stop(t + len + .05);
+  }
+  function sched() {
+    if (!ctx || !bus || ctx.state !== 'running') return;
+    const T = TRACKS[ti], dur = 60 / T.bpm / 4;
+    while (nextTime < ctx.currentTime + .25) {
+      const s = step % 16, ch = T.chords[Math.floor(step / 16) % T.chords.length];
+      const t = nextTime + (s % 2 ? dur * T.swing : 0);
+      if (s === 0) pad(ch, t, dur * 16);
+      if ((T.kicks || [0, 10]).includes(s)) kick(t);
+      if ((T.snares || [4, 12]).includes(s)) hit(t, 'bandpass', T.snareF || 1800, .16, .16);
+      if (T.crackle && Math.random() < .22) hit(t + Math.random() * dur, 'highpass', 2600, .02, .02);
+      if (s % 2 === 0 && (s % 4 === 2 || Math.random() < .7)) hit(t, 'highpass', 7000, s % 4 === 2 ? .06 : .035, .04);
+      if (s === 0 || s === 6 || s === 10) tone('sine', mtof(ch[0] - 12), t, dur * (s === 0 ? 5 : 3), .3, bus.g);
+      if (s % 2 === 0 && Math.random() < (T.lead || .28)) {
+        const n = T.root + 12 + T.scale[Math.floor(Math.random() * T.scale.length)] + (Math.random() < .3 ? 12 : 0);
+        const o = ctx.createOscillator(), g = ctx.createGain();
+        o.type = 'triangle'; o.frequency.value = mtof(n);
+        g.gain.setValueAtTime(.0001, t); g.gain.linearRampToValueAtTime(.09, t + .01); g.gain.exponentialRampToValueAtTime(.0001, t + .7);
+        o.connect(g); g.connect(bus.g); g.connect(bus.send); o.start(t); o.stop(t + .8);
+      }
+      step++; nextTime += dur;
+    }
+  }
+
+  
+  const playBtn = $('#play');
+  function paintPlay() { playBtn.classList.toggle('on', playing); }
+  function togglePlay() {
+    ensure();
+    if (!playing) { if (!bus) startTrack(); ctx.resume(); playing = true; if (!timer) timer = setInterval(sched, 60); }
+    else { ctx.suspend(); playing = false; }
+    paintPlay();
+  }
+  playBtn.onclick = togglePlay;
+  function goTrack(n) {
+    ti = (n + TRACKS.length) % TRACKS.length; elapsed = 0; paintTrack();
+    if (ctx) { if (playing) startTrack(); else { retire(bus); bus = null; } }
+  }
+  $('#mnext').onclick = () => { goTrack(ti + 1); if (!playing) togglePlay(); };
+  $('#mprev').onclick = () => { goTrack(ti - 1); if (!playing) togglePlay(); };
+  paintTrack();
+  const bars = [...document.querySelectorAll('.eq i')], idle = [6, 10, 14, 10, 6], bins = [1, 3, 5, 8, 12], data = new Uint8Array(32);
+  const ring = $('#ring'), tm = $('#tm'); let last = performance.now();
+  function frame(now) {
+    const dt = Math.min(1, (now - last) / 1000); last = now;
+    if (playing) { elapsed += dt; if (elapsed >= TOTAL) goTrack(ti + 1); }
+    ring.style.strokeDashoffset = 125.7 * (1 - elapsed / TOTAL);
+    tm.textContent = (playing || elapsed > 0) ? fmt(elapsed) + ' / ' + fmt(TOTAL) : 'Putar musik offline';
+    if (playing && analyser) { analyser.getByteFrequencyData(data); bars.forEach((b, i) => b.style.height = (5 + data[bins[i]] / 255 * 18) + 'px'); }
+    else bars.forEach((b, i) => b.style.height = idle[i] + 'px');
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+  /* musik mulai pada interaksi pertama (aturan browser) */
+  const first = e => { cleanup(); if (e.target.closest && e.target.closest('.mp,.vid')) return; if (!playing) togglePlay(); };
+  const cleanup = () => { removeEventListener('pointerdown', first); removeEventListener('keydown', first); };
+  addEventListener('pointerdown', first); addEventListener('keydown', first);
+
+  /* video: jeda musik latar saat video diputar */
+  document.querySelectorAll('.vid video').forEach(v => {
+    let paused = false;
+    v.addEventListener('play', () => { if (playing) { paused = true; togglePlay(); } });
+    const back = () => { if (paused && !playing) { paused = false; togglePlay(); } };
+    v.addEventListener('pause', back); v.addEventListener('ended', back);
+  });
+
+  /* kipas kartu beranda */
+  const cards = [...document.querySelectorAll('.card')], NC = cards.length, fan = $('#fan'); let cc = 0, fauto, fdrag = null, fmoved = false;
+  function flayout() {
+    const R = innerWidth < 720 ? 1 : 2;
+    cards.forEach((c, i) => {
+      let d = ((i - cc) % NC + NC) % NC; if (d > NC / 2) d -= NC; const a = Math.abs(d), v = a <= R;
+      c.style.setProperty('--x', d); c.style.setProperty('--r', d * 4 + 'deg'); c.style.setProperty('--b', 1 - a * .14);
+      c.style.setProperty('--y', a * 16 + 'px'); c.style.setProperty('--s', d === 0 ? 1.08 : 1 - a * .06);
+      c.style.zIndex = 10 - a; c.style.opacity = v ? 1 : 0; c.style.pointerEvents = v ? 'auto' : 'none'; c.tabIndex = v ? 0 : -1;
+    });
+  }
+  const fshift = n => { cc = (cc + n + NC) % NC; flayout(); };
+  const fstop = () => clearInterval(fauto), fstart = () => { fstop(); fauto = setInterval(() => { if (document.body.dataset.view === 'home') fshift(1); }, 3800); };
+  $('#fprev').onclick = () => { fstop(); fshift(-1); }; $('#fnext').onclick = () => { fstop(); fshift(1); };
+  fan.addEventListener('pointerenter', fstop); fan.addEventListener('pointerleave', fstart); fan.addEventListener('focusin', fstop);
+  fan.addEventListener('pointerdown', e => { fdrag = e.clientX; fmoved = false; });
+  addEventListener('pointerup', e => { if (fdrag !== null && Math.abs(e.clientX - fdrag) > 45) { fmoved = true; fshift(e.clientX < fdrag ? 1 : -1); } fdrag = null; });
+  fan.addEventListener('click', e => { if (fmoved) { e.preventDefault(); fmoved = false; } }, true);
+  addEventListener('resize', flayout); flayout(); requestAnimationFrame(() => requestAnimationFrame(() => fan.classList.remove('init'))); fstart();
+
+  /* etalase karya: latar bergerak otomatis + kotak kecil */
+  const DATA = [{"id": "event", "num": "01", "title": "Marcomm<br>Event", "tags": ["Brand Identity", "Event", "Marcomm"], "desc": "Brand identity, event, dan kampanye properti CitraLand Megah Batam."}, {"id": "sosmed", "num": "02", "title": "Social<br>Media", "tags": ["Instagram", "Konten", "Iklan berbayar"], "desc": "Strategi konten, iklan berbayar, dan pengelolaan audiens sejak 2021."}, {"id": "offline", "num": "03", "title": "Offline<br>Design", "tags": ["Flyer", "Booklet", "Billboard"], "desc": "Flyer, booklet, billboard, banner, dan hoarding yang konsisten."}, {"id": "drone", "num": "04", "title": "Drone<br>Video", "tags": ["Aerial", "Video", "Konstruksi"], "desc": "Foto dan video udara untuk progres dan pemasaran proyek."}, {"id": "foto", "num": "05", "title": "Foto Properti<br>&amp; Event", "tags": ["Properti", "Event", "Fun Run"], "desc": "Foto properti CitraLand dan dokumentasi event Fun Run."}, {"id": "training", "num": "06", "title": "Video<br>Training", "tags": ["Video", "Sales team", "Editing"], "desc": "Pelatihan konten video tim sales: filming, komposisi, editing."}, {"id": "analisa", "num": "07", "title": "Analisa<br>Sosmed", "tags": ["Reach", "Leads", "Closing"], "desc": "Reach, engagement, dan leads hingga closing sekitar Rp11 miliar."}, {"id": "freelance", "num": "08", "title": "Freelance", "tags": ["3D Animation", "Design", "Logo", "Poster"], "desc": "Karya freelance: 3D animation, desain, logo, poster, dan lainnya."}, {"id": "dompet", "num": "09", "title": "Aplikasi<br>Dompet Keluarga", "tags": ["Aplikasi", "Keuangan", "Sedang dikembangkan"], "desc": "Aplikasi keuangan keluarga yang sedang saya kembangkan: catat, budget, tagihan, dan target bersama."}], N = DATA.length, panel = $('#karya'), bgs = [...document.querySelectorAll('.bg')], trk = $('#trk'), rcs = [...trk.children], pf = $('#pf'), info = document.querySelector('.info');
+  let cur = 0, idx = 0, autoT, hov = false;
+  function show(first) {
+    const d = DATA[cur];
+    bgs.forEach((b, i) => b.classList.toggle('on', i === cur));
+    rcs.forEach(c => c.classList.toggle('act', +c.dataset.i === cur));
+    if (!first) info.classList.add('sw');
+    const fill = () => {
+      $('#tags').innerHTML = d.tags.map(t => '<span>' + t + '</span>').join('');
+      $('#kk').textContent = 'Karya ' + d.num; $('#ttl').innerHTML = d.title; $('#ds').textContent = d.desc; $('#go').href = '#/' + d.id;
+      info.classList.remove('sw');
+    };
+    if (first) fill(); else setTimeout(fill, 280);
+    $('#cnt').textContent = d.num;
+    pf.classList.remove('run'); void pf.offsetWidth; pf.classList.add('run');
+  }
+  function place(anim) { trk.classList.toggle('nt', !anim); trk.style.setProperty('--idx', idx); }
+  function move(dir) {
+    if (dir > 0) { idx++; place(true); if (idx === N) setTimeout(() => { idx = 0; place(false); }, 720); }
+    else { if (idx === 0) { idx = N; place(false); void trk.offsetWidth; } idx--; place(true); }
+    cur = (cur + dir + N) % N; show();
+  }
+  const run = () => { clearInterval(autoT); autoT = setInterval(() => { if (!hov && !document.hidden && document.body.dataset.view === 'home') move(1); }, 5400); };
+  $('#next').onclick = () => { move(1); run(); }; $('#prev').onclick = () => { move(-1); run(); };
+  panel.addEventListener('pointerenter', () => { hov = true; panel.classList.add('pz'); });
+  panel.addEventListener('pointerleave', () => { hov = false; panel.classList.remove('pz'); run(); });
+  let sx = null; panel.addEventListener('pointerdown', e => sx = e.clientX);
+  addEventListener('pointerup', e => { if (sx !== null && Math.abs(e.clientX - sx) > 50) { move(e.clientX < sx ? 1 : -1); run(); } sx = null; });
+  bgs[0].style.transition = 'none'; place(false); show(true); run(); requestAnimationFrame(() => requestAnimationFrame(() => { bgs[0].style.transition = ''; }));
+
+  /* halaman: beranda & tiap karya */
+  const ids = [...document.querySelectorAll('.work')].map(w => w.id.slice(2));
+  function route() {
+    document.querySelectorAll('video').forEach(v => v.pause());
+    const h = location.hash.replace(/^#\/?/, ''), wk = ids.includes(h);
+    document.body.dataset.view = wk ? 'work' : 'home';
+    document.querySelectorAll('.work').forEach(w => w.classList.toggle('on', w.id === 'w-' + h));
+    document.querySelectorAll('.links a').forEach(a => a.classList.toggle('on', a.dataset.r === (wk ? 'karya' : h)));
+    const t = { karya: '#karya', tentang: '#tentang', kontak: '#kontak' }[h];
+    document.title = wk ? $('#w-' + h + ' h2').textContent + ' — Radius Kosgoro' : 'Radius Kosgoro — Portofolio';
+    if (wk) scrollTo(0, 0);
+    else if (t) requestAnimationFrame(() => $(t).scrollIntoView({ behavior: 'smooth', block: 'start' }));
+    else scrollTo(0, 0);
+  }
+  addEventListener('hashchange', route); route();
+
+  /* tema terang / gelap (diingat di browser pengunjung) */
+  const root = document.documentElement, tbtn = $('#theme');
+  const paintTheme = () => tbtn.setAttribute('aria-pressed', root.dataset.theme === 'dark');
+  tbtn.onclick = () => {
+    const t = root.dataset.theme === 'dark' ? 'light' : 'dark';
+    root.dataset.theme = t; paintTheme();
+    try { localStorage.setItem('theme', t); } catch (e) {}
+  };
+  paintTheme();
+
+  document.addEventListener('click', e => {
+    const lb = $('#lb');
+    if (e.target.matches('img[data-z]')) { lb.querySelector('img').src = e.target.src; lb.hidden = false; }
+    else if (!lb.hidden) lb.hidden = true;
+  });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') $('#lb').hidden = true; });
+})();
+</script><script>(() => {
+  const EN = {"Cuplikan 8 dtk":"8 s preview","Ikan hiu 3D di akuarium":"3D shark in an aquarium","Desain, Video,": "Design, Video,", "& Cerita.": "& Stories.", "& Event": "& Events", "+1–2,5% / bln": "+1–2.5% / mo", "1,8–3%": "1.8–3%", "2.800–4.500": "2,800–4,500", "35.000–65.000": "35,000–65,000", "2012 – sekarang": "2012 – present", "5–7 konten per minggu, di atas rata-rata akun properti lokal (16–20 per bulan).": "5–7 posts per week, above the average of local property accounts (16–20 per month).", "ANALISA SOCIAL MEDIA": "SOCIAL MEDIA ANALYSIS", "Analisa": "Analysis", "Analisa Social Media": "Social Media Analysis", "Analisa Sosmed": "Social Media Analysis", "Aplikasi": "App", "Aplikasi Dompet Keluarga": "Dompet Keluarga App", "Aplikasi Keuangan": "Finance App", "Aplikasi keuangan keluarga yang sedang saya kembangkan sendiri, mulai dari konsep, desain antarmuka, sampai materi promosinya. Anggota keluarga bisa mencatat pengeluaran dalam hitungan detik, mengatur budget per pos, mengingat tagihan, dan mencapai target bersama dalam satu aplikasi.": "A family finance app I am building myself, from concept and interface design to promotional materials. Family members can record expenses in seconds, set budgets per category, keep track of bills, and reach shared goals in one app.", "Aplikasi keuangan keluarga yang sedang saya kembangkan: catat, budget, tagihan, dan target bersama.": "A family finance app I am building: expenses, budgets, bills, and shared goals.", "Astronot di jendela stasiun luar angkasa": "Astronaut at a space station window", "Ayo bicara.": "Let's talk.", "Banner Dompet Keluarga": "Dompet Keluarga banner", "Beranda": "Home", "Beranda: saldo, budget bulan ini, tagihan terdekat": "Home: balance, this month's budget, upcoming bills", "Bidang Karya": "Fields of Work", "Biografi": "Biography", "Brand Identity & Event": "Brand Identity & Events", "Brand identity, event, dan kampanye properti CitraLand Megah Batam.": "Brand identity, events, and property campaigns for CitraLand Megah Batam.", "Budget vs actual dan pengingat tagihan": "Budget vs actual and bill reminders", "Catat cepat: tulis singkat, jumlah dan pos terisi otomatis": "Quick entry: type briefly, amount and category fill in automatically", "Chat via WhatsApp": "Chat on WhatsApp", "Ciputra Group · 2021 – sekarang": "Ciputra Group · 2021 – present", "Ciri rumah dengan standar bangunan bagus": "Signs of a well-built house", "Creative Media · 2016 (6 bulan)": "Creative Media · 2016 (6 months)", "Dampak penjualan: sekitar Rp11 miliar, penjualan online terbesar sepanjang tahun": "Sales impact: about Rp11 billion, the biggest online sales of the year", "Desain promosi SBH Travel": "SBH Travel promotional designs", "Design Offline": "Offline Design", "Dokumentasi event Fun Run": "Fun Run event documentation", "Drone & Foto": "Drone & Photo", "Edukasi properti & KPR": "Property & mortgage (KPR) education", "Feed statis 55–60%": "Static feed 55–60%", "Flyer Cetak Offline": "Offline Print Flyers", "Flyer, booklet, billboard, banner, dan hoarding yang konsisten.": "Consistent flyers, booklets, billboards, banners, and hoardings.", "Foto": "Photo", "Foto Properti": "Property Photos", "Foto Properti & Event": "Property & Event Photos", "Foto dan video udara untuk progres dan pemasaran proyek.": "Aerial photos and videos for project progress and marketing.", "Foto properti & dokumentasi event": "Property photos & event documentation", "Foto properti CitraLand": "CitraLand property photos", "Foto properti CitraLand (eksterior, rumah contoh, dan interior) serta dokumentasi event Fun Run, untuk mendukung brand awareness dan promosi.": "CitraLand property photos (exterior, show units, and interiors) and Fun Run event documentation, supporting brand awareness and promotion.", "Foto properti CitraLand dan dokumentasi event Fun Run.": "CitraLand property photos and Fun Run event documentation.", "Freelance · 2018 – sekarang": "Freelance · 2018 – present", "Frekuensi upload": "Posting frequency", "Hainan Tour (update 20 Oktober 2025)": "Hainan Tour (updated 20 October 2025)", "Harga unit": "Unit price", "Hasil": "Results", "Iklan berbayar": "Paid ads", "Ilmu Komputer": "Computer Science", "Interaksi": "Interaction", "Jangan beli rumah sembarangan": "Don't buy a house carelessly", "Jangan sampai cepat rusak": "Don't let it deteriorate quickly", "Jenis konten dominan": "Dominant content types", "KESIMPULAN": "CONCLUSION", "Karakter Li Claudia, Wakil Walikota Batam": "Li Claudia character, Deputy Mayor of Batam", "Karya": "Work", "Karya Pilihan · klik kotak untuk membuka halamannya": "Selected Work · click a card to open its page", "Karya freelance: 3D animation, desain, logo, poster, dan lainnya.": "Freelance work: 3D animation, design, logos, posters, and more.", "Kawasan Batam, BP Batam & Pemerintah Kota Batam": "Batam area, BP Batam & Batam City Government", "Keuangan": "Finance", "Klien": "Client", "Kompetensi & Alat": "Skills & Tools", "Konstruksi": "Construction", "Konstruksi logo dan grid huruf": "Logo construction and letter grid", "Kontak": "Contact", "Konten": "Content", "Konten Sosial Media": "Social Media Content", "Konten Sosial Media Batam Fun Run": "Social Media Content Batam Fun Run", "Konten Sosial Media CSS (Ciputra Sales Sport Batam)": "Social Media Content CSS (Ciputra Sales Sport Batam)", "Konten segera ditambahkan": "Content coming soon", "Kucing 3D untuk Sun Li Media": "3D cat for Sun Li Media", "Lainnya": "Others", "Lifestyle & testimoni": "Lifestyle & testimonials", "Lihat Karya": "View Work", "Logo tanpa pattern dan dengan pattern": "Logo without and with pattern", "Makna logo Matahar1 dan inisial D.U.M.A.I (Kota Dumai)": "Logo meaning and the D.U.M.A.I initials (Dumai City)", "Mari diskusikan proyek, kolaborasi, atau peluang kerja berikutnya.": "Let's discuss projects, collaborations, or your next career opportunity.", "Masa depan": "The future", "Memperkuat citra CitraLand Megah Batam sebagai kawasan hunian premium di Batam.": "Strengthening the image of CitraLand Megah Batam as a premium residential area in Batam.", "Momentum event": "Event momentum", "Paket Tour Hainan, Imlek & Ramadhan 2026": "Hainan Tour Package, Lunar New Year & Ramadan 2026", "Paket Tour Korea, Imlek & Ramadhan 2026": "Korea Tour Package, Lunar New Year & Ramadan 2026", "Paket Tour Thailand, Imlek & Ramadhan 2026": "Thailand Tour Package, Lunar New Year & Ramadan 2026", "Paket Tour Vietnam, Imlek & Ramadhan 2026": "Vietnam Tour Package, Lunar New Year & Ramadan 2026", "Pekerjaan Sekarang": "Current Work", "Pelatihan konten video tim sales: filming, komposisi, editing.": "Video content training for the sales team: filming, composition, editing.", "Pendidikan": "Education", "Pengalaman": "Experience", "Peningkatan pengunjung luar biasa dan penjualan sebesar 11 Miliar untuk CitraLand Megah Batam, rekor penjualan online terbesar sepanjang tahun.": "Exceptional growth in visitors and Rp11 billion in sales for CitraLand Megah Batam, the biggest online sales record of the year.", "Penyu di dasar laut": "Sea turtle on the seabed", "Performa konten, jangkauan, dan dampak pada penjualan": "Content performance, reach, and impact on sales", "Perjalanan karier": "Career journey", "Pertumbuhan follower": "Follower growth", "Portofolio · Marcomm & Creative Designer": "Portfolio · Marcomm & Creative Designer", "Poster Family Day (Fun Walk & Bansos), Bank BTN & DPD REI Khusus Batam": "Family Day poster (Fun Walk & Bansos), Bank BTN & DPD REI Khusus Batam", "Poster film CitraLandMegah & event": "CitraLandMegah movie & event posters", "Presenter di marketing gallery": "Presenter at the marketing gallery", "Profil": "Profile", "Profile visit / bulan": "Profile visits / month", "Promo & penawaran (DP, KPR)": "Promos & offers (down payment, mortgage)", "Properti": "Property", "Proyek freelance di berbagai bidang kreatif: 3D animation, desain, logo, poster, dan lainnya.": "Freelance projects across creative fields: 3D animation, design, logos, posters, and more.", "Putar musik offline": "Play offline music", "Radius Kosgoro, creative designer berbasis di Indonesia. Pilih kartu untuk membuka halaman karyanya.": "Radius Kosgoro, a creative designer based in Indonesia. Pick a card to open its work page.", "Reach / bulan": "Reach / month", "Reach, engagement, dan leads hingga closing sekitar Rp11 miliar.": "Reach, engagement, and leads through to about Rp11 billion in closings.", "Satu kode keluarga dengan peran Admin, Anggota, Anak": "One family code with Admin, Member, and Child roles", "Sebelumnya": "Previously", "Sedang dikembangkan": "In development", "Sejak 2021 mengelola media sosial CitraLand Megah: iklan berbayar, strategi konten, eksekusi kreatif, dan publikasi di Instagram, Facebook, dan TikTok, juga @batamfunrun.id dan @css.batam.": "Since 2021 managing CitraLand Megah's social media: paid ads, content strategy, creative execution, and publishing on Instagram, Facebook, and TikTok, plus @batamfunrun.id and @css.batam.", "Sini saya": "Over here", "Sosmed": "Social", "Stabil": "Stable", "Strategi konten, iklan berbayar, dan pengelolaan audiens sejak 2021.": "Content strategy, paid advertising, and audience management since 2021.", "Struktur rumah yang baik": "A well-built house structure", "Target keluarga dan setoran per bulan": "Family goals and monthly deposits", "Tertarik dengan portofolio saya?": "Interested in my portfolio?", "Tiket Atraksi Malaysia (update 1 Desember 2025)": "Malaysia Attraction Tickets (updated 1 December 2025)", "Tiket Atraksi Malaysia (update 1 Januari 2026)": "Malaysia Attraction Tickets (updated 1 January 2026)", "Tiket Atraksi Singapore & Malaysia (update 1 Desember 2025)": "Singapore & Malaysia Attraction Tickets (updated 1 December 2025)", "Tiket Atraksi Singapore & Malaysia (update 1 Januari 2026)": "Singapore & Malaysia Attraction Tickets (updated 1 January 2026)", "Tiket Atraksi Singapore (update 1 Desember 2025)": "Singapore Attraction Tickets (updated 1 December 2025)", "Tiket Atraksi Singapore (update 1 Januari 2026)": "Singapore Attraction Tickets (updated 1 January 2026)", "Tiket Bird Paradise": "Bird Paradise Tickets", "Tiket Singapore Zoo": "Singapore Zoo Tickets", "Tren bulan ke bulan": "Month-over-month trend", "Upload konsisten 24–30 konten per bulan, didukung video dan visual rapi, menaikkan reach dan profile visit serta menghasilkan leads dan closing.": "Consistent uploads of 24–30 posts per month, backed by video and clean visuals, lifted reach and profile visits and generated leads and closings.", "Upload konten / bulan": "Posts / month", "Usia": "Age", "Variasi warna, font Gilroy-Bold, dan filosofi warna": "Color variations, Gilroy-Bold font, and color philosophy", "Welcome to Batam, BP Batam & Pemerintah Kota Batam": "Welcome to Batam, BP Batam & Batam City Government", "Yang wajib dicek": "Must-check items", "← Semua karya": "← All work", "Coba di sini": "Try it here", "Unduh CV (PDF)": "Download CV (PDF)"}, ID = {"Besides digital design, I am responsible for developing various offline promotional materials such as flyers, booklets, hoardings, and billboards, ensuring consistent brand communication across all marketing channels.": "Selain desain digital, saya bertanggung jawab mengembangkan berbagai materi promosi offline seperti flyer, booklet, hoarding, dan billboard, memastikan komunikasi merek yang konsisten di seluruh kanal pemasaran.", "Best Student and 1st Place twice in video editing and animation competitions.": "Mahasiswa Terbaik dan Juara 1 sebanyak dua kali pada lomba video editing dan animasi.", "Conducted video content training for sales teams, covering filming techniques, composition, and video editing.": "Memberikan pelatihan pembuatan konten video untuk tim sales, mencakup teknik pengambilan gambar, komposisi, dan video editing.", "Currently working at Ciputra Group as a Marketing Communication professional, contributing to successful property marketing campaigns through brand identity management, event execution, digital content creation, video production, and advertising initiatives that support sales performance and brand growth.": "Saat ini bekerja di Ciputra Group sebagai profesional Marketing Communication, berkontribusi pada kampanye pemasaran properti yang sukses melalui pengelolaan identitas merek, pelaksanaan event, pembuatan konten digital, produksi video, dan iklan yang mendukung kinerja penjualan dan pertumbuhan merek.", "I'm Radius Kosgoro, a creative designer who believes that every great idea deserves a powerful visual identity. Through thoughtful design, I turn concepts into engaging visuals that inspire, communicate, and leave a lasting impression.": "Saya Radius Kosgoro, desainer kreatif yang percaya bahwa setiap ide hebat layak mendapat identitas visual yang kuat. Lewat desain yang matang, saya mengubah konsep menjadi visual yang memikat, menginspirasi, mengomunikasikan pesan, dan meninggalkan kesan mendalam.", "Piloting drones to capture aerial photography and videography of project locations: construction progress, project updates, site developments, and visual assets for marketing.": "Menerbangkan drone untuk mengambil foto dan video udara lokasi proyek: progres konstruksi, perkembangan proyek, kondisi lokasi, dan aset visual untuk pemasaran.", "Together, let's create designs that tell stories and connect with people.": "Bersama-sama, mari buat desain yang bercerita dan menghubungkan dengan orang-orang."};
+  const NAMES = k => EN[k] || k;
+  const rules = [
+    [/^Karya (\d+)$/, 'Work $1'],
+    [/^Dokumentasi udara (\d+)$/, 'Aerial documentation $1'],
+  ];
+  function trEn(t){
+    if (EN[t] !== undefined) return EN[t];
+    for (const [r, v] of rules) if (r.test(t)) return t.replace(r, v);
+    const m = t.match(/^(← )?(\d\d) (.+?)( →)?$/);
+    if (m && /[A-Za-z]/.test(m[3])) return (m[1]||'') + m[2] + ' ' + NAMES(m[3]) + (m[4]||'');
+    return t;
+  }
+  let lang = 'id', busy = false;
+  try { const v = localStorage.getItem('lang'); if (v === 'en') lang = 'en'; } catch (e) {}
+  function apply(node){
+    const v = node.nodeValue;
+    if (node.__t !== undefined && v === node.__t) { /* ours */ }
+    else { node.__o = v; }
+    const o = node.__o, tt = o.replace(/\s+/g, ' ').trim();
+    if (!tt) { node.__t = v; return; }
+    let out = tt;
+    if (lang === 'en') out = trEn(tt); else if (ID[tt] !== undefined) out = ID[tt];
+    const lead = o.match(/^\s*/)[0], trail = o.match(/\s*$/)[0];
+    const nv = out === tt ? o : lead + out + trail;
+    if (nv !== v) node.nodeValue = nv;
+    node.__t = node.nodeValue;
+  }
+  function walk(root){
+    const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: n => (n.parentElement && !/^(SCRIPT|STYLE)$/.test(n.parentElement.tagName)) ? 1 : 2 });
+    const list = []; let n; while ((n = w.nextNode())) list.push(n);
+    busy = true; list.forEach(apply); busy = false;
+  }
+  function paint(){
+    document.documentElement.lang = lang;
+    document.querySelectorAll('.an table').forEach(t => { const h = [...t.querySelectorAll('th')].map(x => x.textContent.trim()); t.querySelectorAll('tbody tr').forEach(r => [...r.children].forEach((c, i) => c.setAttribute('data-l', h[i] || ''))); });
+    const b = document.getElementById('lang'); if (b) { b.textContent = lang === 'id' ? 'EN' : 'ID'; b.title = lang === 'id' ? 'Switch to English' : 'Ganti ke Bahasa Indonesia'; }
+    document.title = lang === 'en' ? 'Radius Kosgoro · Portfolio' : 'Radius Kosgoro · Portofolio';
+  }
+  walk(document.body); paint();
+  const mo = new MutationObserver(ms => {
+    if (busy) return; busy = true;
+    try { for (const m of ms) {
+      if (m.type === 'characterData') apply(m.target);
+      else m.addedNodes.forEach(nd => {
+        if (nd.nodeType === 3) apply(nd);
+        else if (nd.nodeType === 1) { const w = document.createTreeWalker(nd, NodeFilter.SHOW_TEXT); let n; while ((n = w.nextNode())) if (!/^(SCRIPT|STYLE)$/.test(n.parentElement.tagName)) apply(n); }
+      });
+    } } finally { busy = false; }
+  });
+  mo.observe(document.body, { childList: true, subtree: true, characterData: true });
+  document.getElementById('lang').addEventListener('click', () => {
+    lang = lang === 'id' ? 'en' : 'id';
+    try { localStorage.setItem('lang', lang); } catch (e) {}
+    walk(document.body); paint();
+  });
+  /* unduh CV */
+  function dl(){
+    const name = lang === 'en' ? 'CV-Radius-Kosgoro-EN.pdf' : 'CV-Radius-Kosgoro.pdf';
+    const a = document.createElement('a'); a.href = 'cv/' + name; a.download = name; document.body.appendChild(a); a.click(); a.remove();
+  }
+  document.addEventListener('click', e => { const t = e.target.closest('[data-cv]'); if (t) { e.preventDefault(); dl(); } });
+})();</script>
+
+<script>(() => {
+  function play(w){
+    const v = w.querySelector('video');
+    document.querySelectorAll('.vw.on video').forEach(o => { if (o !== v) o.pause(); });
+    if (!v.dataset.ready) {
+      let src = w.dataset.v;
+      if (src[0] === '@') {
+        const b = (window.__V || {})[src.slice(1)]; if (!b) return;
+        const bin = atob(b), u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i);
+        src = URL.createObjectURL(new Blob([u], { type: 'video/mp4' }));
+      }
+      v.src = src; v.dataset.ready = '1'; v.loop = w.dataset.loop === '1'; v.muted = v.loop;
+    }
+    w.classList.add('on'); v.hidden = false; v.controls = true; v.play().catch(() => {});
+  }
+  document.addEventListener('click', e => { const w = e.target.closest('.vw'); if (w && !e.target.closest('video')) { e.preventDefault(); play(w); } });
+  document.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.classList && e.target.classList.contains('vw')) { e.preventDefault(); play(e.target); } });
+  addEventListener('hashchange', () => document.querySelectorAll('.vw.on video').forEach(v => v.pause()));
+})();</script>
+</body></html>
